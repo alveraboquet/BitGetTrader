@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api" kind="class" prot="public">
+    <compoundname>BitGetTrader::bitget::mix::position_api::PositionApi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Client</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a119720c141edcf378365c5c40172374b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.position_api.PositionApi.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/position_api.py" line="8" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/position_api.py" bodystart="8" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a5ecc88274059c08c1e80896fca3e03ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.position_api.PositionApi.single_position</definition>
+        <argsstring></argsstring>
+        <name>single_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/position_api.py" line="15" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/position_api.py" bodystart="15" bodyend="23"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a66c6a59fc008fc95e29abeee97866717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.position_api.PositionApi.all_position</definition>
+        <argsstring></argsstring>
+        <name>all_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/position_api.py" line="29" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/position_api.py" bodystart="29" bodyend="36"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="66">
+        <label>BitGetTrader.bitget.mix.position_api.PositionApi</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>Client</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="68">
+        <label>BitGetTrader.bitget.mix.position_api.PositionApi</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>Client</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/position_api.py" line="7" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/position_api.py" bodystart="7" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a119720c141edcf378365c5c40172374b" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::position_api::PositionApi</scope><name>__init__</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a66c6a59fc008fc95e29abeee97866717" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::position_api::PositionApi</scope><name>all_position</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a5ecc88274059c08c1e80896fca3e03ad" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::position_api::PositionApi</scope><name>single_position</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

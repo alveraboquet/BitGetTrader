@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_bit_get_trader_1_1screener_1_1const" kind="namespace">
+    <compoundname>BitGetTrader::screener::const</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1screener_1_1const_1a4ccdb63515c4133909d2a1b6a4c27059" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list BitGetTrader::screener::const.TYPES</definition>
+        <argsstring></argsstring>
+        <name>TYPES</name>
+        <initializer>= [&quot;umcbl&quot;, &quot;dmcbl&quot;, &quot;sumcbl&quot;, &quot;sdmcbl&quot;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/const.py" line="1" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/const.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1screener_1_1const_1a86e356539c5e94d7846d03ceef1dee00" prot="public" static="no" mutable="no">
+        <type>dictionary</type>
+        <definition>dictionary BitGetTrader::screener::const.CONTRACT_HEADERS</definition>
+        <argsstring></argsstring>
+        <name>CONTRACT_HEADERS</name>
+        <initializer>= {
+                    &quot;symbol&quot;:&quot;Symbol&quot;,
+                    &quot;makerFeeRate&quot;:&quot;Maker Fee Rate&quot;,
+                    &quot;takerFeeRate&quot;:&quot;Taker Fee Rate&quot;,
+                    &quot;feeRateUpRatio&quot;:&quot;Fee Rate Up Ratio&quot;,
+                    &quot;openCostUpRatio&quot;:&quot;Open Cost Up Ratio&quot;, 
+                    &quot;quoteCoin&quot;:&quot;Quote Coin&quot;, &quot;baseCoin&quot;:&quot;Base Coin&quot;,
+                    &quot;buyLimitPriceRatio&quot;:&quot;Buy Limit Price Ratio&quot;,
+                    &quot;sellLimitPriceRatio&quot;:&quot;Sell Limit Price Ratio&quot;,
+                    &quot;supportMarginCoins&quot;:&quot;Support Margin Coins&quot;,
+                    &quot;minTradeNum&quot;:&quot;Minimum Trade Number&quot;,
+                    &quot;priceEndStep&quot;:&quot;Price End Step&quot;,
+                    &quot;volumePlace&quot;:&quot;Volume Place&quot;, 
+                    &quot;pricePlace&quot;:&quot;Price Place&quot;
+                    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/const.py" line="3" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/const.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1screener_1_1const_1af4ad300d2c6d7cf7164cc4c349b5916d" prot="public" static="no" mutable="no">
+        <type>dictionary</type>
+        <definition>dictionary BitGetTrader::screener::const.TICKER_HEADERS</definition>
+        <argsstring></argsstring>
+        <name>TICKER_HEADERS</name>
+        <initializer>= {
+                  &quot;symbol&quot;:&quot;Symbol&quot;,
+                  &quot;last&quot;:&quot;Last&quot;,
+                  &quot;bestAsk&quot;:&quot;Best Ask&quot;,
+                  &quot;bestBid&quot;:&quot;Best Bid&quot;,
+                  &quot;high24h&quot;:&quot;24H High&quot;,
+                  &quot;low24h&quot;:&quot;24H Low&quot;,
+                  &quot;timestamp&quot;:&quot;Time&quot;,
+                  &quot;priceChangePct&quot;:&quot;Change %&quot;,
+                  &quot;baseVolume&quot;:&quot;Base Volume&quot;,
+                  &quot;quoteVolume&quot;:&quot;Quote Volume&quot;,
+                  &quot;usdtVolume&quot;:&quot;USDT Volume&quot;
+                  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/const.py" line="18" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/const.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/const.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

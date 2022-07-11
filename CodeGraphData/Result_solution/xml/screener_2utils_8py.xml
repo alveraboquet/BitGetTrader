@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="screener_2utils_8py" kind="file">
+    <compoundname>utils.py</compoundname>
+    <innernamespace refid="namespace_bit_get_trader_1_1screener_1_1utils">BitGetTrader::screener::utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_bit_get_trader_1_1screener_1_1utils" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>contracts.contract<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Contract</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>const<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>c</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_bit_get_trader_1_1screener_1_1utils_1a04c763351bf7fc6a818144596e5da65c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_bit_get_trader_1_1screener_1_1utils_1a04c763351bf7fc6a818144596e5da65c" kindref="member">getContractsInfo</ref>(mAPI,<sp/>types):</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mAPI.contracts(types)[</highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespace_bit_get_trader_1_1screener_1_1utils_1a5f28e4fddc2622336822f34af86ad58a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_bit_get_trader_1_1screener_1_1utils_1a5f28e4fddc2622336822f34af86ad58a" kindref="member">getTickersInfo</ref>(mAPI,<sp/>types):</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>mAPI.tickers(types)[</highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>tempContract<sp/>=<sp/>Contract()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#for<sp/>x<sp/>in<sp/>data2:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/><sp/>temp2<sp/>=<sp/>[x[1]<sp/>for<sp/>x<sp/>in<sp/>list(x.items())]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/><sp/>temp2[0]<sp/>=<sp/>temp2[0].split(&quot;_&quot;)[0]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/><sp/>tickerParams.append(temp)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#for<sp/>n<sp/>in<sp/>range(0,len(contractParams)):</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/><sp/>contracts.append(Contract(contractParams[n],tickerParams[n]))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>contracts</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/utils.py"/>
+  </compounddef>
+</doxygen>

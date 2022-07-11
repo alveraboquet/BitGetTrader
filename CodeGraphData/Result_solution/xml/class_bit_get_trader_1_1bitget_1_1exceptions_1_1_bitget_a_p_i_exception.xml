@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception" kind="class" prot="public">
+    <compoundname>BitGetTrader::bitget::exceptions::BitgetAPIException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a9ea0ab35c26a97b92c49937332b395c3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>BitGetTrader.bitget.exceptions.BitgetAPIException::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="7" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a334945ca622b03216d5e33102b3081ce" compoundref="exceptions_8py" startline="27" endline="31">BitGetTrader.bitget.exceptions.BitgetAPIException.__str__</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a98d80f8716a919ff43dc85e07f0a315c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>BitGetTrader.bitget.exceptions.BitgetAPIException::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="11" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a334945ca622b03216d5e33102b3081ce" compoundref="exceptions_8py" startline="27" endline="31">BitGetTrader.bitget.exceptions.BitgetAPIException.__str__</referencedby>
+        <referencedby refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_request_exception_1a6e085d97e17b246ec62da17e063d4a4d" compoundref="exceptions_8py" startline="37" endline="41">BitGetTrader.bitget.exceptions.BitgetRequestException.__str__</referencedby>
+        <referencedby refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1ab7766e0bcaca951903829441a9195ef4" compoundref="exceptions_8py" startline="47" endline="49">BitGetTrader.bitget.exceptions.BitgetParamsException.__str__</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1aa3920aaf75d0b088ead234960b88ee5c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>BitGetTrader.bitget.exceptions.BitgetAPIException::status_code</definition>
+        <argsstring></argsstring>
+        <name>status_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="23" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1ab471aacea465623f04a47de8ca9e37b9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>BitGetTrader.bitget.exceptions.BitgetAPIException::response</definition>
+        <argsstring></argsstring>
+        <name>response</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="24" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a10e5a7954788ac1a4354155695f5dab9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>BitGetTrader.bitget.exceptions.BitgetAPIException::request</definition>
+        <argsstring></argsstring>
+        <name>request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="25" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a3a7df30b763678db35e59b6e5df48d07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.exceptions.BitgetAPIException.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="6" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="6" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a334945ca622b03216d5e33102b3081ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.exceptions.BitgetAPIException.__str__</definition>
+        <argsstring></argsstring>
+        <name>__str__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="27" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="27" bodyend="31"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a9ea0ab35c26a97b92c49937332b395c3" compoundref="exceptions_8py" startline="7">BitGetTrader.bitget.exceptions.BitgetAPIException.code</references>
+        <references refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a98d80f8716a919ff43dc85e07f0a315c" compoundref="exceptions_8py" startline="11">BitGetTrader.bitget.exceptions.BitgetAPIException.message</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>Exception</label>
+      </node>
+      <node id="10">
+        <label>BitGetTrader.bitget.exceptions.BitgetAPIException</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>Exception</label>
+      </node>
+      <node id="12">
+        <label>BitGetTrader.bitget.exceptions.BitgetAPIException</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="4" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="4" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a3a7df30b763678db35e59b6e5df48d07" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::exceptions::BitgetAPIException</scope><name>__init__</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a334945ca622b03216d5e33102b3081ce" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::exceptions::BitgetAPIException</scope><name>__str__</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a9ea0ab35c26a97b92c49937332b395c3" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::exceptions::BitgetAPIException</scope><name>code</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a98d80f8716a919ff43dc85e07f0a315c" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::exceptions::BitgetAPIException</scope><name>message</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a10e5a7954788ac1a4354155695f5dab9" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::exceptions::BitgetAPIException</scope><name>request</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1ab471aacea465623f04a47de8ca9e37b9" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::exceptions::BitgetAPIException</scope><name>response</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1aa3920aaf75d0b088ead234960b88ee5c" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::exceptions::BitgetAPIException</scope><name>status_code</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_bit_get_trader_1_1screener_1_1utils" kind="namespace">
+    <compoundname>BitGetTrader::screener::utils</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_bit_get_trader_1_1screener_1_1utils_1a04c763351bf7fc6a818144596e5da65c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.screener.utils.getContractsInfo</definition>
+        <argsstring></argsstring>
+        <name>getContractsInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/utils.py" line="4" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/utils.py" bodystart="4" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_bit_get_trader_1_1screener_1_1utils_1a5f28e4fddc2622336822f34af86ad58a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.screener.utils.getTickersInfo</definition>
+        <argsstring></argsstring>
+        <name>getTickersInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/utils.py" line="7" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/utils.py" bodystart="7" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/screener/utils.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

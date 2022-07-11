@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_eb216ac6e691ec1214e9eb3403dddb6f" kind="dir">
+    <compoundname>C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot</compoundname>
+    <innerfile refid="bitget_2spot_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="spot_2account__api_8py">account_api.py</innerfile>
+    <innerfile refid="spot_2market__api_8py">market_api.py</innerfile>
+    <innerfile refid="spot_2order__api_8py">order_api.py</innerfile>
+    <innerfile refid="public__api_8py">public_api.py</innerfile>
+    <innerfile refid="wallet__api_8py">wallet_api.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/"/>
+  </compounddef>
+</doxygen>

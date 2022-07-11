@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="sign__utils_8py" kind="file">
+    <compoundname>sign_utils.py</compoundname>
+    <innernamespace refid="namespacesign__utils">sign_utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacesign__utils" refkind="compound"><highlight class="comment">#!/usr/bin/python</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>hmac</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>base64</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespacesign__utils_1aa35ce8ba68ab27e8e614aa5879982e3f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesign__utils_1aa35ce8ba68ab27e8e614aa5879982e3f" kindref="member">sign</ref>(message,<sp/>secret_key):</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>mac<sp/>=<sp/>hmac.new(bytes(secret_key,<sp/>encoding=</highlight><highlight class="stringliteral">&apos;utf8&apos;</highlight><highlight class="normal">),<sp/>bytes(message,<sp/>encoding=</highlight><highlight class="stringliteral">&apos;utf-8&apos;</highlight><highlight class="normal">),<sp/>digestmod=</highlight><highlight class="stringliteral">&apos;sha256&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>d<sp/>=<sp/>mac.digest()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(base64.b64encode(d),<sp/></highlight><highlight class="stringliteral">&apos;utf8&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="namespacesign__utils_1a6f33d142c3814077133150f74f7b2c7b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesign__utils_1a6f33d142c3814077133150f74f7b2c7b" kindref="member">pre_hash</ref>(timestamp,<sp/>method,<sp/>request_path):</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(timestamp)<sp/>+<sp/>str.upper(method)<sp/>+<sp/>str(request_path)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="namespacesign__utils_1a4d9c2b9ab1fb29fa2ca240d16d0b740f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacesign__utils_1a4d9c2b9ab1fb29fa2ca240d16d0b740f" kindref="member">check_none</ref>(value,<sp/>msg=&quot;&quot;):</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>value:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/>Exception(msg<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>Invalid<sp/>params!&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/utils/sign_utils.py"/>
+  </compounddef>
+</doxygen>

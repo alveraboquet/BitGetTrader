@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="maintester_8py" kind="file">
+    <compoundname>maintester.py</compoundname>
+    <innernamespace refid="namespace_bit_get_trader_1_1maintester">BitGetTrader::maintester</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_bit_get_trader_1_1maintester" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sys</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>bitget.mix.market_api<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>MarketApi<sp/></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>PyQt5.QtWidgets<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>QApplication</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>screener.screener<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Screener</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>screener<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>const<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>c</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespace_bit_get_trader_1_1maintester_1a1376500a8006641c24d896e902a6672d" refkind="member"><highlight class="normal">app<sp/>=<sp/>QApplication(sys.argv)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">app.setStyle(</highlight><highlight class="stringliteral">&apos;Fusion&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="10" refid="namespace_bit_get_trader_1_1maintester_1a669c63789cad79e216ce41e931be5180" refkind="member"><highlight class="normal">mAPI<sp/>=<sp/>MarketApi(</highlight><highlight class="stringliteral">&quot;bg_0d456f8fe40db4bcfc8300b4e6242b75&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;74de60c68c9ea07d20b13aa0c6d849668810fcb71993434a33469f65fc71152b&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;meyerClaire30&quot;</highlight><highlight class="normal">,<sp/>use_server_time=</highlight><highlight class="keyword">False</highlight><highlight class="normal">,<sp/>first=</highlight><highlight class="keyword">False</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="namespace_bit_get_trader_1_1maintester_1acaa49511cc2c268cee9dd807418d2b43" refkind="member"><highlight class="normal">c<sp/>=<sp/>Screener(mAPI)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">sys.exit(app.exec_())</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/maintester.py"/>
+  </compounddef>
+</doxygen>

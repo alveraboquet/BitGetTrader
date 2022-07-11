@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbitget__ws__client_1_1_base_ws_req" kind="class" prot="public">
+    <compoundname>bitget_ws_client::BaseWsReq</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbitget__ws__client_1_1_base_ws_req_1a9441e6f1f643050a326e9c76be48dd90" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bitget_ws_client.BaseWsReq::op</definition>
+        <argsstring></argsstring>
+        <name>op</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="333" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classbitget__ws__client_1_1_base_ws_req_1a94169a6fd3446cd58c2b14873d0e33c0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bitget_ws_client.BaseWsReq::args</definition>
+        <argsstring></argsstring>
+        <name>args</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="334" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbitget__ws__client_1_1_base_ws_req_1aeb11bdaa7b7bdbdc5a632aa5c25b2aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bitget_ws_client.BaseWsReq.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="332" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="332" bodyend="336"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="330" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="330" bodyend="337"/>
+    <listofallmembers>
+      <member refid="classbitget__ws__client_1_1_base_ws_req_1aeb11bdaa7b7bdbdc5a632aa5c25b2aa8" prot="public" virt="non-virtual"><scope>bitget_ws_client::BaseWsReq</scope><name>__init__</name></member>
+      <member refid="classbitget__ws__client_1_1_base_ws_req_1a94169a6fd3446cd58c2b14873d0e33c0" prot="public" virt="non-virtual"><scope>bitget_ws_client::BaseWsReq</scope><name>args</name></member>
+      <member refid="classbitget__ws__client_1_1_base_ws_req_1a9441e6f1f643050a326e9c76be48dd90" prot="public" virt="non-virtual"><scope>bitget_ws_client::BaseWsReq</scope><name>op</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacebitget__ws__client" kind="namespace">
+    <compoundname>bitget_ws_client</compoundname>
+    <innerclass refid="classbitget__ws__client_1_1_bitget_ws_client" prot="public">bitget_ws_client::BitgetWsClient</innerclass>
+    <innerclass refid="classbitget__ws__client_1_1_books_info" prot="public">bitget_ws_client::BooksInfo</innerclass>
+    <innerclass refid="classbitget__ws__client_1_1_subscribe_req" prot="public">bitget_ws_client::SubscribeReq</innerclass>
+    <innerclass refid="classbitget__ws__client_1_1_base_ws_req" prot="public">bitget_ws_client::BaseWsReq</innerclass>
+    <innerclass refid="classbitget__ws__client_1_1_ws_login_req" prot="public">bitget_ws_client::WsLoginReq</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacebitget__ws__client_1a99ad7b0fcb4567a1816a50c111fc92c6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string bitget_ws_client.WS_OP_LOGIN</definition>
+        <argsstring></argsstring>
+        <name>WS_OP_LOGIN</name>
+        <initializer>= &apos;login&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="15" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebitget__ws__client_1a9f76a956144735247e90ffb3324d9f9a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string bitget_ws_client.WS_OP_SUBSCRIBE</definition>
+        <argsstring></argsstring>
+        <name>WS_OP_SUBSCRIBE</name>
+        <initializer>= &quot;subscribe&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="16" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacebitget__ws__client_1a9f95aa3dc2b9756137c6d5a4ae8eba79" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string bitget_ws_client.WS_OP_UNSUBSCRIBE</definition>
+        <argsstring></argsstring>
+        <name>WS_OP_UNSUBSCRIBE</name>
+        <initializer>= &quot;unsubscribe&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="17" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacebitget__ws__client_1aaa3c3be888da37cfb82530c63bfb7523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bitget_ws_client.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="20" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacebitget__ws__client_1a88e0b3f74369b58ba6ee555c9cc7e398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bitget_ws_client.handel_error</definition>
+        <argsstring></argsstring>
+        <name>handel_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="24" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

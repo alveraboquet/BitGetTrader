@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="position__api_8py" kind="file">
+    <compoundname>position_api.py</compoundname>
+    <innerclass refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api" prot="public">BitGetTrader::bitget::mix::position_api::PositionApi</innerclass>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1position__api">BitGetTrader::bitget::mix::position_api</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1position__api" refkind="compound"><highlight class="comment">#!/usr/bin/python</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>..client<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Client</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>..consts<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api" kindref="compound">PositionApi</ref>(Client):</highlight></codeline>
+<codeline lineno="8" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a119720c141edcf378365c5c40172374b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a119720c141edcf378365c5c40172374b" kindref="member">__init__</ref>(self,<sp/>api_key,<sp/>api_secret_key,<sp/>passphrase,<sp/>use_server_time=False,<sp/>first=False):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Client.__init__(self,<sp/>api_key,<sp/>api_secret_key,<sp/>passphrase,<sp/>use_server_time,<sp/>first)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>获取用户单个持仓信息</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a5ecc88274059c08c1e80896fca3e03ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a5ecc88274059c08c1e80896fca3e03ad" kindref="member">single_position</ref>(self,<sp/>symbol,<sp/>marginCoin):</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>symbol:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;symbol&quot;</highlight><highlight class="normal">]<sp/>=<sp/>symbol</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;marginCoin&quot;</highlight><highlight class="normal">]<sp/>=<sp/>marginCoin</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>MIX_POSITION_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/singlePosition&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="25"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>获取用户单个持仓信息</highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>productType:<sp/>umcbl(USDT专业合约)<sp/>dmcbl(混合合约)<sp/>sumcbl(USDT专业合约模拟盘)<sp/><sp/>sdmcbl(混合合约模拟盘)</highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a66c6a59fc008fc95e29abeee97866717" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a66c6a59fc008fc95e29abeee97866717" kindref="member">all_position</ref>(self,<sp/>productType,<sp/>marginCoin):</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>productType:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;productType&quot;</highlight><highlight class="normal">]<sp/>=<sp/>productType</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;marginCoin&quot;</highlight><highlight class="normal">]<sp/>=<sp/>marginCoin</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>MIX_POSITION_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/allPosition&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args&quot;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/position_api.py"/>
+  </compounddef>
+</doxygen>

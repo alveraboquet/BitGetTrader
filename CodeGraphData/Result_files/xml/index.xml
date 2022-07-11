@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="namespace_bit_get_trader" kind="namespace"><name>BitGetTrader</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1maintester" kind="namespace"><name>BitGetTrader::maintester</name>
+    <member refid="namespace_bit_get_trader_1_1maintester_1a1376500a8006641c24d896e902a6672d" kind="variable"><name>app</name></member>
+    <member refid="namespace_bit_get_trader_1_1maintester_1a669c63789cad79e216ce41e931be5180" kind="variable"><name>mAPI</name></member>
+    <member refid="namespace_bit_get_trader_1_1maintester_1acaa49511cc2c268cee9dd807418d2b43" kind="variable"><name>c</name></member>
+  </compound>
+  <compound refid="____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="maintester_8py" kind="file"><name>maintester.py</name>
+  </compound>
+  <compound refid="dir_3ab35c722d349d44c1b8b652d5828814" kind="dir"><name>C:/Users/bbeaulieu</name>
+  </compound>
+  <compound refid="dir_72a236457d216c3366edaa77b04ffd51" kind="dir"><name>C:/Users/bbeaulieu/source/repos/BitGetTrader</name>
+  </compound>
+  <compound refid="dir_6494b37d764f4f294bca13d86be354b3" kind="dir"><name>C:/Users/bbeaulieu/source/repos</name>
+  </compound>
+  <compound refid="dir_210568a6879a6672898d3f92ed854387" kind="dir"><name>C:/Users/bbeaulieu/source</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

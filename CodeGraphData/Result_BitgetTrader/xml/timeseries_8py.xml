@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="timeseries_8py" kind="file">
+    <compoundname>timeseries.py</compoundname>
+    <innerclass refid="classtimeseries_1_1_date_range_too_large_error" prot="public">timeseries::DateRangeTooLargeError</innerclass>
+    <innerclass refid="classtimeseries_1_1_time_series" prot="public">timeseries::TimeSeries</innerclass>
+    <innernamespace refid="namespacetimeseries">timeseries</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacetimeseries" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>math</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>bitget.mix.market_api<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>MarketApi</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>candle<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Candle</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classtimeseries_1_1_date_range_too_large_error" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtimeseries_1_1_date_range_too_large_error" kindref="compound">DateRangeTooLargeError</ref>(Exception):</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;Raised<sp/>when<sp/>the<sp/>number<sp/>of<sp/>&apos;getSeries&apos;<sp/>iterations<sp/>is<sp/>too<sp/>large,</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>and<sp/>override<sp/>is<sp/>not<sp/>enabled.&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classtimeseries_1_1_date_range_too_large_error_1adc65f1634e2b3e43b95b15ff6306a019" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtimeseries_1_1_date_range_too_large_error_1adc65f1634e2b3e43b95b15ff6306a019" kindref="member">__init__</ref>(self,<sp/>message=&quot;Number<sp/>of<sp/>&apos;getSeries&apos;<sp/>iterations<sp/>is<sp/>too<sp/>large,<sp/>and<sp/>override<sp/>is<sp/>not<sp/>enabled.&quot;):</highlight></codeline>
+<codeline lineno="10" refid="classtimeseries_1_1_date_range_too_large_error_1a4d891c51d66e6bbba86205813289e2d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classtimeseries_1_1_date_range_too_large_error_1a4d891c51d66e6bbba86205813289e2d0" kindref="member">message</ref><sp/>=<sp/>message</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super().<ref refid="classtimeseries_1_1_date_range_too_large_error_1adc65f1634e2b3e43b95b15ff6306a019" kindref="member">__init__</ref>(self.<ref refid="classtimeseries_1_1_date_range_too_large_error_1a4d891c51d66e6bbba86205813289e2d0" kindref="member">message</ref>)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classtimeseries_1_1_time_series" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtimeseries_1_1_time_series" kindref="compound">TimeSeries</ref>:</highlight></codeline>
+<codeline lineno="14" refid="classtimeseries_1_1_time_series_1ab7e52656260c3a6d81418343c8dd9789" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtimeseries_1_1_time_series_1ab7e52656260c3a6d81418343c8dd9789" kindref="member">__init__</ref>(self,<sp/>m:<sp/>MarketApi):</highlight></codeline>
+<codeline lineno="15" refid="classtimeseries_1_1_time_series_1a75129dbc3a8d2776795c35d6a3f4d1be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classtimeseries_1_1_time_series_1a75129dbc3a8d2776795c35d6a3f4d1be" kindref="member">api</ref><sp/>=<sp/>m</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>----<sp/>getSeries<sp/>----</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/>--<sp/>calculates<sp/>number<sp/>of<sp/>iterations<sp/>needed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/>--<sp/>iterates<sp/>get<sp/>requests,<sp/>builds<sp/>chronological</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/><sp/><sp/>--<sp/>list<sp/>of<sp/>Candle<sp/>objects.<sp/>Returns<sp/>the<sp/>aforementioned<sp/>list.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classtimeseries_1_1_time_series_1aa8a61f715bb8b2bf4348d72d853eaffa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtimeseries_1_1_time_series_1aa8a61f715bb8b2bf4348d72d853eaffa" kindref="member">getSeries</ref>(self,<sp/>symbol:<sp/>str,<sp/>granularity:<sp/>str,<sp/>startTime:<sp/>str,<sp/>endTime:<sp/>str,<sp/>override=</highlight><highlight class="keyword">False</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>iterations<sp/>=<sp/>1</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>num_candles<sp/>=<sp/>math.floor((int(endTime)-int(startTime))/(int(granularity)*1000))</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>num_candles<sp/>&gt;<sp/>100:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">not</highlight><highlight class="normal"><sp/>override:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">raise</highlight><highlight class="normal"><sp/><ref refid="classtimeseries_1_1_date_range_too_large_error" kindref="compound">DateRangeTooLargeError</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>iterations<sp/>=<sp/>math.ceil(num_candles/100)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>startTime<sp/>=<sp/>endTime<sp/>-<sp/>iterations*(1000*int(granularity)*100)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>endTime-=<sp/>(iterations-1)*(1000*int(granularity)*100)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>series<sp/>=<sp/>[]</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>x<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>range(0,iterations):</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>candles<sp/>=<sp/>self.api.candles(symbol,<sp/>granularity,<sp/>startTime,<sp/>endTime)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>x<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>candles:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x<sp/>==<sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>(x[1]<sp/>==<sp/>x[2]<sp/>==<sp/>x[3]<sp/>==<sp/>x[4]):</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>series.append(<ref refid="classcandle_1_1_candle" kindref="compound">Candle</ref>(x[0],x[1],x[2],x[3],x[4],x[5],x[6]))</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>startTime<sp/>=<sp/>endTime</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>endTime+=(1000*int(granularity)*100)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>series.reverse()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>series</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries.py"/>
+  </compounddef>
+</doxygen>

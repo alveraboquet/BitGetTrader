@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="bitget_2utils_8py" kind="file">
+    <compoundname>utils.py</compoundname>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1utils">BitGetTrader::bitget::utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_bit_get_trader_1_1bitget_1_1utils" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>hmac</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>base64</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>time</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>consts<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>c</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespace_bit_get_trader_1_1bitget_1_1utils_1ae3b463d1f37e3a037b99f135a5c35335" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_bit_get_trader_1_1bitget_1_1utils_1ae3b463d1f37e3a037b99f135a5c35335" kindref="member">sign</ref>(message,<sp/>secret_key):</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>mac<sp/>=<sp/>hmac.new(bytes(secret_key,<sp/>encoding=</highlight><highlight class="stringliteral">&apos;utf8&apos;</highlight><highlight class="normal">),<sp/>bytes(message,<sp/>encoding=</highlight><highlight class="stringliteral">&apos;utf-8&apos;</highlight><highlight class="normal">),<sp/>digestmod=</highlight><highlight class="stringliteral">&apos;sha256&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>d<sp/>=<sp/>mac.digest()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>base64.b64encode(d)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="namespace_bit_get_trader_1_1bitget_1_1utils_1aa73691fa7cc17bf5fd10420c34842f3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_bit_get_trader_1_1bitget_1_1utils_1aa73691fa7cc17bf5fd10420c34842f3d" kindref="member">pre_hash</ref>(timestamp,<sp/>method,<sp/>request_path,<sp/>body):</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str(timestamp)<sp/>+<sp/>str.upper(method)<sp/>+<sp/>request_path<sp/>+<sp/>body</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespace_bit_get_trader_1_1bitget_1_1utils_1aadea5cede4afc5d3a50b19ffb643a807" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_bit_get_trader_1_1bitget_1_1utils_1aadea5cede4afc5d3a50b19ffb643a807" kindref="member">get_header</ref>(api_key,<sp/>sign,<sp/>timestamp,<sp/>passphrase):</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>header<sp/>=<sp/>dict()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>header[c.CONTENT_TYPE]<sp/>=<sp/>c.APPLICATION_JSON</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>header[c.OK_ACCESS_KEY]<sp/>=<sp/>api_key</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>header[c.OK_ACCESS_SIGN]<sp/>=<sp/>sign</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>header[c.OK_ACCESS_TIMESTAMP]<sp/>=<sp/>str(timestamp)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>header[c.OK_ACCESS_PASSPHRASE]<sp/>=<sp/>passphrase</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>header[c.LOCALE]<sp/>=<sp/>&apos;zh-CN&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>header</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="namespace_bit_get_trader_1_1bitget_1_1utils_1a895e05c3ca08c7daeab7da872c7b2ab1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_bit_get_trader_1_1bitget_1_1utils_1a895e05c3ca08c7daeab7da872c7b2ab1" kindref="member">parse_params_to_str</ref>(params):</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>url<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;?&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>key,<sp/>value<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>params.items():</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>url<sp/>=<sp/>url<sp/>+<sp/>str(key)<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;=&apos;</highlight><highlight class="normal"><sp/>+<sp/>str(value)<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;&amp;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>url[0:-1]</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="namespace_bit_get_trader_1_1bitget_1_1utils_1a47e69b87d343f6ea2458f023d5b147e8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_bit_get_trader_1_1bitget_1_1utils_1a47e69b87d343f6ea2458f023d5b147e8" kindref="member">get_timestamp</ref>():</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>int(time.time()<sp/>*<sp/>1000)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="namespace_bit_get_trader_1_1bitget_1_1utils_1a8b15814e823f2e23800656e45822b4ca" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_bit_get_trader_1_1bitget_1_1utils_1a8b15814e823f2e23800656e45822b4ca" kindref="member">signature</ref>(timestamp,<sp/>method,<sp/>request_path,<sp/>body,<sp/>secret_key):</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>str(body)<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;{}&apos;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/>str(body)<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;None&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>body<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>message<sp/>=<sp/>str(timestamp)<sp/>+<sp/>str.upper(method)<sp/>+<sp/>request_path<sp/>+<sp/>str(body)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>mac<sp/>=<sp/>hmac.new(bytes(secret_key,<sp/>encoding=</highlight><highlight class="stringliteral">&apos;utf8&apos;</highlight><highlight class="normal">),<sp/>bytes(message,<sp/>encoding=</highlight><highlight class="stringliteral">&apos;utf-8&apos;</highlight><highlight class="normal">),<sp/>digestmod=</highlight><highlight class="stringliteral">&apos;sha256&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>d<sp/>=<sp/>mac.digest()</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>base64.b64encode(d)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/utils.py"/>
+  </compounddef>
+</doxygen>

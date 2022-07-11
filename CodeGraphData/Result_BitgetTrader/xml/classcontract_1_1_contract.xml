@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classcontract_1_1_contract" kind="class" prot="public">
+    <compoundname>contract::Contract</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcontract_1_1_contract_1ab7a69d4bf0b656921e8d72bf0bf1eb07" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::symbol</definition>
+        <argsstring></argsstring>
+        <name>symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="4" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a468c154b1be6459d82bc26a1ca380765" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::maker</definition>
+        <argsstring></argsstring>
+        <name>maker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="5" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a8b552f2131363e6af1fa91dab41bcba1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::taker</definition>
+        <argsstring></argsstring>
+        <name>taker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="6" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a8cbb219914c0a23b84fc8025f0e9d943" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::feeRate</definition>
+        <argsstring></argsstring>
+        <name>feeRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="7" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a24019d5ade79b700ef58087d5feb93f4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::openCost</definition>
+        <argsstring></argsstring>
+        <name>openCost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="8" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1ae75885b81f4565422bad3c2671e02c3f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::quote</definition>
+        <argsstring></argsstring>
+        <name>quote</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="9" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a33dec8c6d4eada200b1ff46f17f2377b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="10" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a46e911173dfbe00d6158343dd25a38fe" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::buyRatio</definition>
+        <argsstring></argsstring>
+        <name>buyRatio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="11" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a65fcab84275c4da54e753c2a36c20edc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::sellRatio</definition>
+        <argsstring></argsstring>
+        <name>sellRatio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="12" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1ab002337366a56b661472db3409333cfa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::marginCoins</definition>
+        <argsstring></argsstring>
+        <name>marginCoins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="13" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a3552f829b4a85d0c382485476c72b6e8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::minTradeNum</definition>
+        <argsstring></argsstring>
+        <name>minTradeNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="14" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a83f64b536aed079bbf8c1bc28fa01888" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::priceEndStep</definition>
+        <argsstring></argsstring>
+        <name>priceEndStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="15" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a5e383921722047e0d3959099099d77f2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::volumePlace</definition>
+        <argsstring></argsstring>
+        <name>volumePlace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="16" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a288a6ae3418e8b3c8eb0fde6db9ca57a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::pricePlace</definition>
+        <argsstring></argsstring>
+        <name>pricePlace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="17" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1acb2286a8f23c05987315e77f9be079f9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::last</definition>
+        <argsstring></argsstring>
+        <name>last</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="19" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a03d7a857e3e331d08b94ee099bae8b02" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::bestAsk</definition>
+        <argsstring></argsstring>
+        <name>bestAsk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="20" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a2b0841f2c987e1e2cd5c3a04f92d2f5d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::bestBid</definition>
+        <argsstring></argsstring>
+        <name>bestBid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="21" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1ad04f628996f45c68e6448c29ac63b04d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::high24h</definition>
+        <argsstring></argsstring>
+        <name>high24h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="22" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1a890e2e886ae1099a4628ba0bf1def705" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::low24h</definition>
+        <argsstring></argsstring>
+        <name>low24h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="23" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1adf9231aecb10b9a1b872bb0aed596a08" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::timechecked</definition>
+        <argsstring></argsstring>
+        <name>timechecked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="24" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1ae73503bf3f73df99e88cb65edb6f4a03" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::baseVolume</definition>
+        <argsstring></argsstring>
+        <name>baseVolume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="25" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1ac2ecd23ac87cc154b23660b2e6517186" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::quoteVolume</definition>
+        <argsstring></argsstring>
+        <name>quoteVolume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="26" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcontract_1_1_contract_1abc4716a6bd7785ffa756d9943487a39c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>contract.Contract::usdtVolume</definition>
+        <argsstring></argsstring>
+        <name>usdtVolume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="27" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcontract_1_1_contract_1a6b10d30c1e9dd6b6002f2fa3b535a9d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def contract.Contract.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="3" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="3" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" line="1" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/contract.py" bodystart="1" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classcontract_1_1_contract_1a6b10d30c1e9dd6b6002f2fa3b535a9d5" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>__init__</name></member>
+      <member refid="classcontract_1_1_contract_1a33dec8c6d4eada200b1ff46f17f2377b" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>base</name></member>
+      <member refid="classcontract_1_1_contract_1ae73503bf3f73df99e88cb65edb6f4a03" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>baseVolume</name></member>
+      <member refid="classcontract_1_1_contract_1a03d7a857e3e331d08b94ee099bae8b02" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>bestAsk</name></member>
+      <member refid="classcontract_1_1_contract_1a2b0841f2c987e1e2cd5c3a04f92d2f5d" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>bestBid</name></member>
+      <member refid="classcontract_1_1_contract_1a46e911173dfbe00d6158343dd25a38fe" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>buyRatio</name></member>
+      <member refid="classcontract_1_1_contract_1a8cbb219914c0a23b84fc8025f0e9d943" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>feeRate</name></member>
+      <member refid="classcontract_1_1_contract_1ad04f628996f45c68e6448c29ac63b04d" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>high24h</name></member>
+      <member refid="classcontract_1_1_contract_1acb2286a8f23c05987315e77f9be079f9" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>last</name></member>
+      <member refid="classcontract_1_1_contract_1a890e2e886ae1099a4628ba0bf1def705" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>low24h</name></member>
+      <member refid="classcontract_1_1_contract_1a468c154b1be6459d82bc26a1ca380765" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>maker</name></member>
+      <member refid="classcontract_1_1_contract_1ab002337366a56b661472db3409333cfa" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>marginCoins</name></member>
+      <member refid="classcontract_1_1_contract_1a3552f829b4a85d0c382485476c72b6e8" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>minTradeNum</name></member>
+      <member refid="classcontract_1_1_contract_1a24019d5ade79b700ef58087d5feb93f4" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>openCost</name></member>
+      <member refid="classcontract_1_1_contract_1a83f64b536aed079bbf8c1bc28fa01888" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>priceEndStep</name></member>
+      <member refid="classcontract_1_1_contract_1a288a6ae3418e8b3c8eb0fde6db9ca57a" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>pricePlace</name></member>
+      <member refid="classcontract_1_1_contract_1ae75885b81f4565422bad3c2671e02c3f" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>quote</name></member>
+      <member refid="classcontract_1_1_contract_1ac2ecd23ac87cc154b23660b2e6517186" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>quoteVolume</name></member>
+      <member refid="classcontract_1_1_contract_1a65fcab84275c4da54e753c2a36c20edc" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>sellRatio</name></member>
+      <member refid="classcontract_1_1_contract_1ab7a69d4bf0b656921e8d72bf0bf1eb07" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>symbol</name></member>
+      <member refid="classcontract_1_1_contract_1a8b552f2131363e6af1fa91dab41bcba1" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>taker</name></member>
+      <member refid="classcontract_1_1_contract_1adf9231aecb10b9a1b872bb0aed596a08" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>timechecked</name></member>
+      <member refid="classcontract_1_1_contract_1abc4716a6bd7785ffa756d9943487a39c" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>usdtVolume</name></member>
+      <member refid="classcontract_1_1_contract_1a5e383921722047e0d3959099099d77f2" prot="public" virt="non-virtual"><scope>contract::Contract</scope><name>volumePlace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

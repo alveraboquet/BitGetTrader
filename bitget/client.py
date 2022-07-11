@@ -13,7 +13,7 @@ class Client(object):
         self.use_server_time = use_server_time
         self.first = first
 
-    def _request(self, method, request_path, params, cursor=False,print=False):
+    def _request(self, method, request_path, params, cursor=False,iPrint=False):
         if method == c.GET:
             request_path = request_path + utils.parse_params_to_str(params)
         # url
@@ -46,16 +46,16 @@ class Client(object):
         response = None
         if method == c.GET:
             response = requests.get(url, headers=header)
-            if print:
+            if iPrint:
                 print("response : ",response.text)
         elif method == c.POST:
             response = requests.post(url, data=body, headers=header)
-            if print:
+            if iPrint:
                 print("response : ",response.text)
             #response = requests.post(url, json=body, headers=header)
         elif method == c.DELETE:
             response = requests.delete(url, headers=header)
-        if print:
+        if iPrint:
             print("status:", response.status_code)
         # exception handle
         if not str(response.status_code).startswith('2'):
@@ -67,20 +67,20 @@ class Client(object):
                 try:
                     r['before'] = res_header['OK-BEFORE']
                     r['after'] = res_header['OK-AFTER']
-                except:
+                except Exception:
                     pass
                 return response.json(), r
             else:
                 return response.json()
 
         except ValueError:
-            raise exceptions.BitgetRequestException('Invalid Response: %s' % response.text)
+            raise BitgetRequestException('Invalid Response: %s' % response.text) from ValueError
 
     def _request_without_params(self, method, request_path):
         return self._request(method, request_path, {})
 
-    def _request_with_params(self, method, request_path, params, cursor=False, print=False):
-        return self._request(method, request_path, params, cursor, print)
+    def _request_with_params(self, method, request_path, params, cursor=False, iPrint=False):
+        return self._request(method, request_path, params, cursor, iPrint)
 
     def _get_timestamp(self):
         url = c.API_URL + c.SERVER_TIMESTAMP_URL

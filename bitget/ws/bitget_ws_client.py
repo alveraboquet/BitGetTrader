@@ -42,6 +42,7 @@ class BitgetWsClient:
         self.__url = url
         self.__scribe_map = {}
         self.__allbooks_map = {}
+        self.__ws_client = None
 
     def build(self):
         self.__ws_client = self.__init_client()
@@ -142,19 +143,19 @@ class BitgetWsClient:
                     del self.__scribe_map[chanel]
 
             for channel in channels:
-                if chanel in self.__all_suribe:
+                if channel in self.__all_suribe:
                     self.__all_suribe.remove(channel)
 
             self.send_message(WS_OP_UNSUBSCRIBE, channels)
-        except Exception as e:
+        except Exception:
             pass
 
-    def __on_open(self, ws):
+    def __on_open(self):
         print('connection is success....')
         self.__connection = True
         self.__reconnect_status = False
 
-    def __on_message(self, ws, message):
+    def __on_message(self, message):
 
         if message == 'pong':
             print("Keep connected:" + message)
@@ -182,11 +183,11 @@ class BitgetWsClient:
 
         self.__listener(message)
 
-    def __dict_books_info(self, dict):
-        return BooksInfo(dict['asks'], dict['bids'], dict['checksum'])
+    def __dict_books_info(self, iDict):
+        return BooksInfo(iDict['asks'], iDict['bids'], iDict['checksum'])
 
-    def __dict_to_subscribe_req(self, dict):
-        return SubscribeReq(dict['instType'], dict['channel'], dict['instId'])
+    def __dict_to_subscribe_req(self, iDict):
+        return SubscribeReq(iDict['instType'], iDict['channel'], iDict['instId'])
 
     def get_listener(self, json_obj):
         try:
@@ -196,15 +197,14 @@ class BitgetWsClient:
                 return self.__scribe_map.get(subscribe_req)
         except Exception as e:
             print(json_obj.get('arg'), e)
-            pass
 
-    def __on_error(self, ws, msg):
+    def __on_error(self, msg):
         print("error:", msg)
         self.__close()
         if not self.__reconnect_status:
             self.__re_connect()
 
-    def __on_close(self, ws, close_status_code, close_msg):
+    def __on_close(self, close_status_code, close_msg):
         print("ws is closeing ......close_status:{},close_msg:{}".format(close_status_code, close_msg))
         self.__close()
         if not self.__reconnect_status:
@@ -216,7 +216,6 @@ class BitgetWsClient:
         print("start reconnection ...")
         self.build()
         self.subscribe(self.__all_suribe)
-        pass
 
     def __close(self):
         self.__login_status = False
@@ -254,7 +253,7 @@ class BitgetWsClient:
                     self.subscribe([subscribe_req])
                     return False
                 self.__allbooks_map[subscribe_req] = all_books
-        except Exception as e:
+        except Exception:
             msg = traceback.format_exc()
             print(msg)
 

@@ -1,9 +1,9 @@
 # coding=utf-8
-import json
 
 class BitgetAPIException(Exception):
 
     def __init__(self, response):
+        super().__init__()
         self.code = 0
         try:
             json_res = response.json()
@@ -32,6 +32,7 @@ class BitgetAPIException(Exception):
 class BitgetRequestException(Exception):
 
     def __init__(self, message):
+        super().__init__()
         self.message = message
 
     def __str__(self):
@@ -42,6 +43,7 @@ class BitgetRequestException(Exception):
 class BitgetParamsException(Exception):
 
     def __init__(self, message):
+        super().__init__()
         self.message = message
 
     def __str__(self):

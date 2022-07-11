@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classbitget__ws__client_1_1_books_info" kind="class" prot="public">
+    <compoundname>bitget_ws_client::BooksInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classbitget__ws__client_1_1_books_info_1a9cb459fbcf6bbd055384f4eea4b328d1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bitget_ws_client.BooksInfo::asks</definition>
+        <argsstring></argsstring>
+        <name>asks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="266" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="266" bodyend="-1"/>
+        <referencedby refid="classbitget__ws__client_1_1_books_info_1a7f2f15630911bd5a006009a7bc22bf2a" compoundref="bitget__ws__client_8py" startline="295" endline="309">bitget_ws_client.BooksInfo.check_sum</referencedby>
+        <referencedby refid="classbitget__ws__client_1_1_books_info_1abc6ac9d02e11d65099195d12a8d07cab" compoundref="bitget__ws__client_8py" startline="270" endline="274">bitget_ws_client.BooksInfo.merge</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbitget__ws__client_1_1_books_info_1a07e76789af73b546ec8c4aafb48f0318" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bitget_ws_client.BooksInfo::bids</definition>
+        <argsstring></argsstring>
+        <name>bids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="267" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="267" bodyend="-1"/>
+        <referencedby refid="classbitget__ws__client_1_1_books_info_1a7f2f15630911bd5a006009a7bc22bf2a" compoundref="bitget__ws__client_8py" startline="295" endline="309">bitget_ws_client.BooksInfo.check_sum</referencedby>
+        <referencedby refid="classbitget__ws__client_1_1_books_info_1abc6ac9d02e11d65099195d12a8d07cab" compoundref="bitget__ws__client_8py" startline="270" endline="274">bitget_ws_client.BooksInfo.merge</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classbitget__ws__client_1_1_books_info_1a188e080d5b7de7fed74ab18127e6cfb9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>bitget_ws_client.BooksInfo::checksum</definition>
+        <argsstring></argsstring>
+        <name>checksum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="268" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classbitget__ws__client_1_1_books_info_1aadd3817d654278cc547b3152ade286eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bitget_ws_client.BooksInfo.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="265" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="265" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classbitget__ws__client_1_1_books_info_1abc6ac9d02e11d65099195d12a8d07cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bitget_ws_client.BooksInfo.merge</definition>
+        <argsstring></argsstring>
+        <name>merge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="270" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="270" bodyend="274"/>
+        <references refid="classbitget__ws__client_1_1_books_info_1a9cb459fbcf6bbd055384f4eea4b328d1" compoundref="bitget__ws__client_8py" startline="266">bitget_ws_client.BooksInfo.asks</references>
+        <references refid="classbitget__ws__client_1_1_books_info_1a07e76789af73b546ec8c4aafb48f0318" compoundref="bitget__ws__client_8py" startline="267">bitget_ws_client.BooksInfo.bids</references>
+        <references refid="classbitget__ws__client_1_1_books_info_1a776d4c7b1d25e179a434295fcae93ea0" compoundref="bitget__ws__client_8py" startline="275" endline="294">bitget_ws_client.BooksInfo.innerMerge</references>
+      </memberdef>
+      <memberdef kind="function" id="classbitget__ws__client_1_1_books_info_1a776d4c7b1d25e179a434295fcae93ea0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bitget_ws_client.BooksInfo.innerMerge</definition>
+        <argsstring></argsstring>
+        <name>innerMerge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="275" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="275" bodyend="294"/>
+        <referencedby refid="classbitget__ws__client_1_1_books_info_1abc6ac9d02e11d65099195d12a8d07cab" compoundref="bitget__ws__client_8py" startline="270" endline="274">bitget_ws_client.BooksInfo.merge</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classbitget__ws__client_1_1_books_info_1a7f2f15630911bd5a006009a7bc22bf2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bitget_ws_client.BooksInfo.check_sum</definition>
+        <argsstring></argsstring>
+        <name>check_sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="295" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="295" bodyend="309"/>
+        <references refid="classbitget__ws__client_1_1_books_info_1aeae88cc24706f172be62eae1b680e789" compoundref="bitget__ws__client_8py" startline="310" endline="315">bitget_ws_client.BooksInfo.__signed_int</references>
+        <references refid="classbitget__ws__client_1_1_books_info_1a9cb459fbcf6bbd055384f4eea4b328d1" compoundref="bitget__ws__client_8py" startline="266">bitget_ws_client.BooksInfo.asks</references>
+        <references refid="classbitget__ws__client_1_1_books_info_1a07e76789af73b546ec8c4aafb48f0318" compoundref="bitget__ws__client_8py" startline="267">bitget_ws_client.BooksInfo.bids</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classbitget__ws__client_1_1_books_info_1aeae88cc24706f172be62eae1b680e789" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def bitget_ws_client.BooksInfo.__signed_int</definition>
+        <argsstring></argsstring>
+        <name>__signed_int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="310" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="310" bodyend="315"/>
+        <referencedby refid="classbitget__ws__client_1_1_books_info_1a7f2f15630911bd5a006009a7bc22bf2a" compoundref="bitget__ws__client_8py" startline="295" endline="309">bitget_ws_client.BooksInfo.check_sum</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" line="264" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/bitget_ws_client.py" bodystart="264" bodyend="316"/>
+    <listofallmembers>
+      <member refid="classbitget__ws__client_1_1_books_info_1aadd3817d654278cc547b3152ade286eb" prot="public" virt="non-virtual"><scope>bitget_ws_client::BooksInfo</scope><name>__init__</name></member>
+      <member refid="classbitget__ws__client_1_1_books_info_1aeae88cc24706f172be62eae1b680e789" prot="private" virt="non-virtual"><scope>bitget_ws_client::BooksInfo</scope><name>__signed_int</name></member>
+      <member refid="classbitget__ws__client_1_1_books_info_1a9cb459fbcf6bbd055384f4eea4b328d1" prot="public" virt="non-virtual"><scope>bitget_ws_client::BooksInfo</scope><name>asks</name></member>
+      <member refid="classbitget__ws__client_1_1_books_info_1a07e76789af73b546ec8c4aafb48f0318" prot="public" virt="non-virtual"><scope>bitget_ws_client::BooksInfo</scope><name>bids</name></member>
+      <member refid="classbitget__ws__client_1_1_books_info_1a7f2f15630911bd5a006009a7bc22bf2a" prot="public" virt="non-virtual"><scope>bitget_ws_client::BooksInfo</scope><name>check_sum</name></member>
+      <member refid="classbitget__ws__client_1_1_books_info_1a188e080d5b7de7fed74ab18127e6cfb9" prot="public" virt="non-virtual"><scope>bitget_ws_client::BooksInfo</scope><name>checksum</name></member>
+      <member refid="classbitget__ws__client_1_1_books_info_1a776d4c7b1d25e179a434295fcae93ea0" prot="public" virt="non-virtual"><scope>bitget_ws_client::BooksInfo</scope><name>innerMerge</name></member>
+      <member refid="classbitget__ws__client_1_1_books_info_1abc6ac9d02e11d65099195d12a8d07cab" prot="public" virt="non-virtual"><scope>bitget_ws_client::BooksInfo</scope><name>merge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

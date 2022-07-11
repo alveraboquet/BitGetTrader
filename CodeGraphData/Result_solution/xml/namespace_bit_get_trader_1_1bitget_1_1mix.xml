@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_bit_get_trader_1_1bitget_1_1mix" kind="namespace">
+    <compoundname>BitGetTrader::bitget::mix</compoundname>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1account__api">BitGetTrader::bitget::mix::account_api</innernamespace>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1market__api">BitGetTrader::bitget::mix::market_api</innernamespace>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1order__api">BitGetTrader::bitget::mix::order_api</innernamespace>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1plan__api">BitGetTrader::bitget::mix::plan_api</innernamespace>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1position__api">BitGetTrader::bitget::mix::position_api</innernamespace>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1trace__api">BitGetTrader::bitget::mix::trace_api</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,7 +1,4 @@
 import math
-import time
-
-from bitget.mix.market_api import MarketApi
 from candle import Candle
 
 class DateRangeTooLargeError(Exception):
@@ -10,10 +7,9 @@ class DateRangeTooLargeError(Exception):
     def __init__(self, message="Number of 'getSeries' iterations is too large, and override is not enabled."):
         self.message = message
         super().__init__(self.message)
-    pass
 
 class TimeSeries:
-    def __init__(self, m: MarketApi):
+    def __init__(self, m: 'MarketApi'):
         self.api = m
     
     # ---- getSeries ----
@@ -33,10 +29,10 @@ class TimeSeries:
         series = []
         for x in range(0,iterations):
             candles = self.api.candles(symbol, granularity, startTime, endTime)
-            for x in candles:
-                if (x == None) or (x[1] == x[2] == x[3] == x[4]):
+            for c in candles:
+                if (c == None) or (c[1] == c[2] == c[3] == c[4]):
                     break
-                series.append(Candle(x[0],x[1],x[2],x[3],x[4],x[5],x[6]))
+                series.append(Candle(c[0],c[1],c[2],c[3],c[4],c[5],c[6]))
             startTime = endTime
             endTime+=(1000*int(granularity)*100)
 

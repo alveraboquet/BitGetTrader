@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classtimeseries__asynch_1_1_time_series_asynch" kind="class" prot="public">
+    <compoundname>timeseries_asynch::TimeSeriesAsynch</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtimeseries__asynch_1_1_time_series_asynch_1a1de127aa6a9c207eeff9a7b4d6d57afe" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>timeseries_asynch.TimeSeriesAsynch::api</definition>
+        <argsstring></argsstring>
+        <name>api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries_asynch.py" line="27" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries_asynch.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtimeseries__asynch_1_1_time_series_asynch_1acfbf09a855c58fb9037829f78a794006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def timeseries_asynch.TimeSeriesAsynch.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries_asynch.py" line="26" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries_asynch.py" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimeseries__asynch_1_1_time_series_asynch_1a22eb41938bc99d26cabc77fcddf72e46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def timeseries_asynch.TimeSeriesAsynch.candles_async</definition>
+        <argsstring></argsstring>
+        <name>candles_async</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries_asynch.py" line="29" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries_asynch.py" bodystart="29" bodyend="47"/>
+        <references refid="classtimeseries__asynch_1_1_time_series_asynch_1aae8ff5806de73768e11d7f3c324a2fd6" compoundref="timeseries__asynch_8py" startline="54" endline="86">timeseries_asynch.TimeSeriesAsynch.getSeries</references>
+        <referencedby refid="classtimeseries__asynch_1_1_time_series_asynch_1aae8ff5806de73768e11d7f3c324a2fd6" compoundref="timeseries__asynch_8py" startline="54" endline="86">timeseries_asynch.TimeSeriesAsynch.getSeries</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classtimeseries__asynch_1_1_time_series_asynch_1aae8ff5806de73768e11d7f3c324a2fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def timeseries_asynch.TimeSeriesAsynch.getSeries</definition>
+        <argsstring></argsstring>
+        <name>getSeries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries_asynch.py" line="52" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries_asynch.py" bodystart="54" bodyend="86"/>
+        <references refid="classtimeseries__asynch_1_1_time_series_asynch_1a22eb41938bc99d26cabc77fcddf72e46" compoundref="timeseries__asynch_8py" startline="29" endline="47">timeseries_asynch.TimeSeriesAsynch.candles_async</references>
+        <referencedby refid="classtimeseries__asynch_1_1_time_series_asynch_1a22eb41938bc99d26cabc77fcddf72e46" compoundref="timeseries__asynch_8py" startline="29" endline="47">timeseries_asynch.TimeSeriesAsynch.candles_async</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries_asynch.py" line="25" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/timeseries_asynch.py" bodystart="25" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classtimeseries__asynch_1_1_time_series_asynch_1acfbf09a855c58fb9037829f78a794006" prot="public" virt="non-virtual"><scope>timeseries_asynch::TimeSeriesAsynch</scope><name>__init__</name></member>
+      <member refid="classtimeseries__asynch_1_1_time_series_asynch_1a1de127aa6a9c207eeff9a7b4d6d57afe" prot="public" virt="non-virtual"><scope>timeseries_asynch::TimeSeriesAsynch</scope><name>api</name></member>
+      <member refid="classtimeseries__asynch_1_1_time_series_asynch_1a22eb41938bc99d26cabc77fcddf72e46" prot="public" virt="non-virtual"><scope>timeseries_asynch::TimeSeriesAsynch</scope><name>candles_async</name></member>
+      <member refid="classtimeseries__asynch_1_1_time_series_asynch_1aae8ff5806de73768e11d7f3c324a2fd6" prot="public" virt="non-virtual"><scope>timeseries_asynch::TimeSeriesAsynch</scope><name>getSeries</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -14,11 +14,11 @@ def pre_hash(timestamp, method, request_path, body):
     return str(timestamp) + str.upper(method) + request_path + body
 
 
-def get_header(api_key, sign, timestamp, passphrase):
+def get_header(api_key, iSign, timestamp, passphrase):
     header = dict()
     header[c.CONTENT_TYPE] = c.APPLICATION_JSON
     header[c.OK_ACCESS_KEY] = api_key
-    header[c.OK_ACCESS_SIGN] = sign
+    header[c.OK_ACCESS_SIGN] = iSign
     header[c.OK_ACCESS_TIMESTAMP] = str(timestamp)
     header[c.OK_ACCESS_PASSPHRASE] = passphrase
     # header[c.LOCALE] = 'zh-CN'

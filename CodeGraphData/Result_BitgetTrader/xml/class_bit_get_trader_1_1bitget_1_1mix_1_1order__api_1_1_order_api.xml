@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api" kind="class" prot="public">
+    <compoundname>BitGetTrader::bitget::mix::order_api::OrderApi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Client</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a3d7c65d772e81adae213548a02ec6b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.order_api.OrderApi.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" line="8" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" bodystart="8" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1aff0bbd57a4f26d4cb2cd4a74b1376be9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.order_api.OrderApi.place_order</definition>
+        <argsstring></argsstring>
+        <name>place_order</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" line="23" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" bodystart="23" bodyend="39"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a1d6ff2ec9341bb75b117afd56c3d77b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.order_api.OrderApi.batch_orders</definition>
+        <argsstring></argsstring>
+        <name>batch_orders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" line="53" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" bodystart="53" bodyend="56"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a1e3b9657457f46b27d972626de3f5356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.order_api.OrderApi.cancel_orders</definition>
+        <argsstring></argsstring>
+        <name>cancel_orders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" line="61" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" bodystart="61" bodyend="70"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a1509dc407662fe87ca6763d05f651a83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.order_api.OrderApi.cancel_batch_orders</definition>
+        <argsstring></argsstring>
+        <name>cancel_batch_orders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" line="76" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" bodystart="76" bodyend="82"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1af7750725253f02edefe1ba27bcd3fa88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.order_api.OrderApi.detail</definition>
+        <argsstring></argsstring>
+        <name>detail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" line="87" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" bodystart="87" bodyend="95"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a3d4f78dc157c92bdbb3ebaaa38d54d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.order_api.OrderApi.current</definition>
+        <argsstring></argsstring>
+        <name>current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" line="100" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" bodystart="100" bodyend="107"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a515e8e0c79bb156fac97019e0b775623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.order_api.OrderApi.history</definition>
+        <argsstring></argsstring>
+        <name>history</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" line="113" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" bodystart="113" bodyend="125"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a523ad8147a412e9a30c8a84f094cf0b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.mix.order_api.OrderApi.fills</definition>
+        <argsstring></argsstring>
+        <name>fills</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" line="130" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" bodystart="130" bodyend="137"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="59">
+        <label>Client</label>
+      </node>
+      <node id="58">
+        <label>BitGetTrader.bitget.mix.order_api.OrderApi</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="61">
+        <label>Client</label>
+      </node>
+      <node id="60">
+        <label>BitGetTrader.bitget.mix.order_api.OrderApi</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" line="7" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/order_api.py" bodystart="7" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a3d7c65d772e81adae213548a02ec6b6a" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::order_api::OrderApi</scope><name>__init__</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a1d6ff2ec9341bb75b117afd56c3d77b3" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::order_api::OrderApi</scope><name>batch_orders</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a1509dc407662fe87ca6763d05f651a83" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::order_api::OrderApi</scope><name>cancel_batch_orders</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a1e3b9657457f46b27d972626de3f5356" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::order_api::OrderApi</scope><name>cancel_orders</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a3d4f78dc157c92bdbb3ebaaa38d54d56" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::order_api::OrderApi</scope><name>current</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1af7750725253f02edefe1ba27bcd3fa88" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::order_api::OrderApi</scope><name>detail</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a523ad8147a412e9a30c8a84f094cf0b2" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::order_api::OrderApi</scope><name>fills</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a515e8e0c79bb156fac97019e0b775623" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::order_api::OrderApi</scope><name>history</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1aff0bbd57a4f26d4cb2cd4a74b1376be9" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::mix::order_api::OrderApi</scope><name>place_order</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

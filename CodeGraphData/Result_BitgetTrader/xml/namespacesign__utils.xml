@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacesign__utils" kind="namespace">
+    <compoundname>sign_utils</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesign__utils_1aa35ce8ba68ab27e8e614aa5879982e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sign_utils.sign</definition>
+        <argsstring></argsstring>
+        <name>sign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/utils/sign_utils.py" line="6" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/utils/sign_utils.py" bodystart="6" bodyend="11"/>
+        <referencedby refid="classbitget__ws__client_1_1_bitget_ws_client_1a781837e87450f9e56deb1cb706703fc7" compoundref="bitget__ws__client_8py" startline="96" endline="107">bitget_ws_client.BitgetWsClient.__login</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacesign__utils_1a6f33d142c3814077133150f74f7b2c7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sign_utils.pre_hash</definition>
+        <argsstring></argsstring>
+        <name>pre_hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/utils/sign_utils.py" line="12" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/utils/sign_utils.py" bodystart="12" bodyend="15"/>
+        <referencedby refid="classbitget__ws__client_1_1_bitget_ws_client_1a781837e87450f9e56deb1cb706703fc7" compoundref="bitget__ws__client_8py" startline="96" endline="107">bitget_ws_client.BitgetWsClient.__login</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacesign__utils_1a4d9c2b9ab1fb29fa2ca240d16d0b740f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def sign_utils.check_none</definition>
+        <argsstring></argsstring>
+        <name>check_none</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/utils/sign_utils.py" line="16" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/utils/sign_utils.py" bodystart="16" bodyend="19"/>
+        <referencedby refid="classbitget__ws__client_1_1_bitget_ws_client_1aa97d7b1416886e9e7a1cdf343025a0bc" compoundref="bitget__ws__client_8py" startline="30" endline="45">bitget_ws_client.BitgetWsClient.__init__</referencedby>
+        <referencedby refid="classbitget__ws__client_1_1_bitget_ws_client_1a781837e87450f9e56deb1cb706703fc7" compoundref="bitget__ws__client_8py" startline="96" endline="107">bitget_ws_client.BitgetWsClient.__login</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/utils/sign_utils.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

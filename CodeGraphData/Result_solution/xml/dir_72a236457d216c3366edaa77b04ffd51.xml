@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_72a236457d216c3366edaa77b04ffd51" kind="dir">
+    <compoundname>C:/Users/bbeaulieu/source/repos/BitGetTrader</compoundname>
+    <innerdir refid="dir_66deca76e522774e663c56f9fb89983e">C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget</innerdir>
+    <innerdir refid="dir_7a2fa1c1ac582789b6cca15a977ed099">C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts</innerdir>
+    <innerdir refid="dir_7df51e47a9005cb0ce198f484c4f360c">C:/Users/bbeaulieu/source/repos/BitGetTrader/screener</innerdir>
+    <innerfile refid="____init_____8py">__init__.py</innerfile>
+    <innerfile refid="maintester_8py">maintester.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/"/>
+  </compounddef>
+</doxygen>

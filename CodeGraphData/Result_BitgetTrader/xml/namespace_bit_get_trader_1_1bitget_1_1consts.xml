@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_bit_get_trader_1_1bitget_1_1consts" kind="namespace">
+    <compoundname>BitGetTrader::bitget::consts</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a8824ee93a34e89e139c7187895d0d0e0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.CONTENT_TYPE</definition>
+        <argsstring></argsstring>
+        <name>CONTENT_TYPE</name>
+        <initializer>= &apos;Content-Type&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="3" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1accfd44d8e7c02d838a51cabc417bf423" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.OK_ACCESS_KEY</definition>
+        <argsstring></argsstring>
+        <name>OK_ACCESS_KEY</name>
+        <initializer>= &apos;ACCESS-KEY&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="4" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a4765e3ca2d14bcdc6ee260fbaadc47a5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.OK_ACCESS_SIGN</definition>
+        <argsstring></argsstring>
+        <name>OK_ACCESS_SIGN</name>
+        <initializer>= &apos;ACCESS-SIGN&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="5" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1ae44a61d1151d60ef2e80aa2b9c58c93e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.OK_ACCESS_TIMESTAMP</definition>
+        <argsstring></argsstring>
+        <name>OK_ACCESS_TIMESTAMP</name>
+        <initializer>= &apos;ACCESS-TIMESTAMP&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="6" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a833961aca20d783395325e91e45a63e8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.OK_ACCESS_PASSPHRASE</definition>
+        <argsstring></argsstring>
+        <name>OK_ACCESS_PASSPHRASE</name>
+        <initializer>= &apos;ACCESS-PASSPHRASE&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="7" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1ae1b5837e0cc4f16828758807fa021ff2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.APPLICATION_JSON</definition>
+        <argsstring></argsstring>
+        <name>APPLICATION_JSON</name>
+        <initializer>= &apos;application/json&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="8" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a7b276daebaebe39f74e8ba09ae31d584" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.ACEEPT</definition>
+        <argsstring></argsstring>
+        <name>ACEEPT</name>
+        <initializer>= &apos;Accept&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="11" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a53813e009270c55b96eb7ff748824437" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.COOKIE</definition>
+        <argsstring></argsstring>
+        <name>COOKIE</name>
+        <initializer>= &apos;Cookie&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="12" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a812a79f55096334e88da7059f0073836" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.LOCALE</definition>
+        <argsstring></argsstring>
+        <name>LOCALE</name>
+        <initializer>= &apos;locale=&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="13" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a064ff545ff8c38894f11a74e68342647" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts::GET</definition>
+        <argsstring></argsstring>
+        <name>GET</name>
+        <initializer>= &quot;GET&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="16" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1ad4b61f7bda7dd41d93d25fb6f129445f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.POST</definition>
+        <argsstring></argsstring>
+        <name>POST</name>
+        <initializer>= &quot;POST&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="17" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a3a82395cafe28e893c78285956c25cf9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.DELETE</definition>
+        <argsstring></argsstring>
+        <name>DELETE</name>
+        <initializer>= &quot;DELETE&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="18" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1af521ce3226cb3a6e0825794883869a7c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.API_URL</definition>
+        <argsstring></argsstring>
+        <name>API_URL</name>
+        <initializer>= &apos;https://api.bitget.com&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="21" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a7a5e2fe0cdea50e954d2caf8fdd30e4a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.CONTRACT_WS_URL</definition>
+        <argsstring></argsstring>
+        <name>CONTRACT_WS_URL</name>
+        <initializer>= &apos;wss://ws.bitgetapi.com/spot/v1/stream&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="24" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1ac60ff2cb90fed6140b06724332bbcfd8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.SPOT_PUBLIC_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>SPOT_PUBLIC_V1_URL</name>
+        <initializer>= &apos;/api/spot/v1/public&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="32" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a4fd78d936add9569950f72df99599fd5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.SPOT_MARKET_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>SPOT_MARKET_V1_URL</name>
+        <initializer>= &apos;/api/spot/v1/market&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="33" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a37c01dceb793a418599430ea722b446a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.SPOT_ACCOUNT_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>SPOT_ACCOUNT_V1_URL</name>
+        <initializer>= &apos;/api/spot/v1/account&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="34" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a6610765aa92ae38adbb66ec57b7af5bd" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.SPOT_ORDER_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>SPOT_ORDER_V1_URL</name>
+        <initializer>= &apos;/api/spot/v1/trade&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="35" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a9a988a84d930816bde6dd19bf6d0823b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.SPOT_WALLET_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>SPOT_WALLET_V1_URL</name>
+        <initializer>= &apos;/api/spot/v1/wallet&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="36" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a67a133930728707d3f35809d27554cca" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.MIX_MARKET_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>MIX_MARKET_V1_URL</name>
+        <initializer>= &apos;/api/mix/v1/market&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="42" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1ac893ad2e56182d47c2b72f74b89b5e62" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.MIX_ACCOUNT_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>MIX_ACCOUNT_V1_URL</name>
+        <initializer>= &apos;/api/mix/v1/account&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="43" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a7d8ff665d9a445ea6fb8f33eea37b38f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.MIX_POSITION_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>MIX_POSITION_V1_URL</name>
+        <initializer>= &apos;/api/mix/v1/position&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="44" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1ac291144e085a5e5bed9708486b3562c1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.MIX_ORDER_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>MIX_ORDER_V1_URL</name>
+        <initializer>= &apos;/api/mix/v1/order&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="45" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1ac6b62c05d40cb104571f42ffebe785bb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.MIX_PLAN_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>MIX_PLAN_V1_URL</name>
+        <initializer>= &apos;/api/mix/v1/plan&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="46" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1afbc3714978ff9404618b4ffe0611e145" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.MIX_TRACE_V1_URL</definition>
+        <argsstring></argsstring>
+        <name>MIX_TRACE_V1_URL</name>
+        <initializer>= &apos;/api/mix/v1/trace&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="47" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1a6c61c38f2981bdbc8c87d5530391bfeb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.SUBSCRIBE</definition>
+        <argsstring></argsstring>
+        <name>SUBSCRIBE</name>
+        <initializer>= &apos;subscribe&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="49" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1ab0f73f50dff8d3d5c018081611da4011" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.UNSUBSCRIBE</definition>
+        <argsstring></argsstring>
+        <name>UNSUBSCRIBE</name>
+        <initializer>= &apos;unsubscribe&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="50" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_bit_get_trader_1_1bitget_1_1consts_1aa2aa6f9f36e1b2ba32c043c81d0dfd5e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BitGetTrader::bitget::consts.LOGIN</definition>
+        <argsstring></argsstring>
+        <name>LOGIN</name>
+        <initializer>= &apos;login&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="51" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

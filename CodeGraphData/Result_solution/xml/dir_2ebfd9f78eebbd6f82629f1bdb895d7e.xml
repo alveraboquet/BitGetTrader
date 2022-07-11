@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_2ebfd9f78eebbd6f82629f1bdb895d7e" kind="dir">
+    <compoundname>C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws</compoundname>
+    <innerdir refid="dir_0e4c5006c6ac6cb7e712c38494b24447">C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/utils</innerdir>
+    <innerfile refid="bitget__ws__client_8py">bitget_ws_client.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/"/>
+  </compounddef>
+</doxygen>

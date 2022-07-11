@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_bit_get_trader_1_1bitget_1_1mix_1_1position__api" kind="namespace">
+    <compoundname>BitGetTrader::bitget::mix::position_api</compoundname>
+    <innerclass refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api" prot="public">BitGetTrader::bitget::mix::position_api::PositionApi</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/position_api.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

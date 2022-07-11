@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api" kind="class" prot="public">
+    <compoundname>BitGetTrader::bitget::spot::wallet_api::WalletApi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Client</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a0202a7b71bb8f693b5fd6d2a37c8bcd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.wallet_api.WalletApi.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" line="9" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a7877bff9dec6326d345c7b00120eb3f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.wallet_api.WalletApi.transfer</definition>
+        <argsstring></argsstring>
+        <name>transfer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" line="20" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" bodystart="20" bodyend="30"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a76d8ef8e2b7c56fc3dd7373af24721de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.wallet_api.WalletApi.depositAddress</definition>
+        <argsstring></argsstring>
+        <name>depositAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" line="37" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" bodystart="37" bodyend="45"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a8f96294af7569137211b17f6be3df846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.wallet_api.WalletApi.withdrawal</definition>
+        <argsstring></argsstring>
+        <name>withdrawal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" line="58" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" bodystart="58" bodyend="74"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a38dca8c89c33132faadf997fb91f9163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.wallet_api.WalletApi.withdrawalInner</definition>
+        <argsstring></argsstring>
+        <name>withdrawalInner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" line="84" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" bodystart="84" bodyend="95"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a81562f48412a4578b479f6d0b57323a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.wallet_api.WalletApi.withdrawalList</definition>
+        <argsstring></argsstring>
+        <name>withdrawalList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" line="100" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" bodystart="100" bodyend="111"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a20f358451ba30982fcfb65840ed9614f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.wallet_api.WalletApi.depositList</definition>
+        <argsstring></argsstring>
+        <name>depositList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" line="116" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" bodystart="116" bodyend="126"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="89">
+        <label>Client</label>
+      </node>
+      <node id="88">
+        <label>BitGetTrader.bitget.spot.wallet_api.WalletApi</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="91">
+        <label>Client</label>
+      </node>
+      <node id="90">
+        <label>BitGetTrader.bitget.spot.wallet_api.WalletApi</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" line="7" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/wallet_api.py" bodystart="7" bodyend="126"/>
+    <listofallmembers>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a0202a7b71bb8f693b5fd6d2a37c8bcd3" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::wallet_api::WalletApi</scope><name>__init__</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a76d8ef8e2b7c56fc3dd7373af24721de" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::wallet_api::WalletApi</scope><name>depositAddress</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a20f358451ba30982fcfb65840ed9614f" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::wallet_api::WalletApi</scope><name>depositList</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a7877bff9dec6326d345c7b00120eb3f3" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::wallet_api::WalletApi</scope><name>transfer</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a8f96294af7569137211b17f6be3df846" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::wallet_api::WalletApi</scope><name>withdrawal</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a38dca8c89c33132faadf997fb91f9163" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::wallet_api::WalletApi</scope><name>withdrawalInner</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a81562f48412a4578b479f6d0b57323a7" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::wallet_api::WalletApi</scope><name>withdrawalList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

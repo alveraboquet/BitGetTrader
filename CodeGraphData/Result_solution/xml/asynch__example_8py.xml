@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="asynch__example_8py" kind="file">
+    <compoundname>asynch_example.py</compoundname>
+    <innernamespace refid="namespaceasynch__example">asynch_example</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceasynch__example" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>asyncio</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>time</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>math</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>bitget.mix.market_api<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>MarketApi</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>timeseries_asynch<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>TimeSeriesAsynch</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="namespaceasynch__example_1a223ca3f2d4aa0f6a114ab053ffe916d2" refkind="member"><highlight class="normal">m<sp/>=<sp/>MarketApi(</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;bg_0d456f8fe40db4bcfc8300b4e6242b75&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;74de60c68c9ea07d20b13aa0c6d849668810fcb71993434a33469f65fc71152b&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;meyerClaire30&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>use_server_time=</highlight><highlight class="keyword">False</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>first=</highlight><highlight class="keyword">False</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="16" refid="namespaceasynch__example_1a873a87c944c5b97864a4d46225cb5a0e" refkind="member"><highlight class="normal">z<sp/>=<sp/><ref refid="classtimeseries__asynch_1_1_time_series_asynch" kindref="compound">TimeSeriesAsynch</ref>(m)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="namespaceasynch__example_1a31da5d44674eec28993056132b4b06b2" refkind="member"><highlight class="normal">startTime<sp/>=<sp/>time.time()</highlight></codeline>
+<codeline lineno="20" refid="namespaceasynch__example_1a50cd6c427a62752f889049cd224c73c2" refkind="member"><highlight class="normal">adjTime<sp/>=<sp/>math.floor(startTime)<sp/>*<sp/>1000</highlight></codeline>
+<codeline lineno="21" refid="namespaceasynch__example_1a7dd77f55b68c935e46a86133b5ca477d" refkind="member"><highlight class="normal">timeframe<sp/>=<sp/>60</highlight></codeline>
+<codeline lineno="22" refid="namespaceasynch__example_1ad53b6168dd9ab6a0ed2ac587d91cc087" refkind="member"><highlight class="normal">candleswanted<sp/>=<sp/>3000</highlight></codeline>
+<codeline lineno="23" refid="namespaceasynch__example_1a875812f7042f62d536148bbd040618e0" refkind="member"><highlight class="normal">difference<sp/>=<sp/>timeframe<sp/>*<sp/>candleswanted<sp/>*<sp/>1000</highlight></codeline>
+<codeline lineno="24" refid="namespaceasynch__example_1a86e2ba5d81af03cd4ed5c382784ff2c1" refkind="member"><highlight class="normal">series<sp/>=<sp/>asyncio.run(</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>z.getSeries(</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;BTCUSDT_UMCBL&quot;</highlight><highlight class="normal">,<sp/>str(timeframe),<sp/>adjTime<sp/>-<sp/>difference,<sp/>int(adjTime),<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="29" refid="namespaceasynch__example_1aeb5e58f0a17f0ce6c001df09c2de2a60" refkind="member"><highlight class="normal">duration<sp/>=<sp/>time.time()<sp/>-<sp/>startTime</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="namespaceasynch__example_1afdacbfca85007c6726bf47e535837a2b" refkind="member"><highlight class="normal">f<sp/>=<sp/>open(</highlight><highlight class="stringliteral">&quot;myfile.txt&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;w&quot;</highlight><highlight class="normal">,encoding=</highlight><highlight class="stringliteral">&quot;utf-8&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="32" refid="namespaceasynch__example_1ab99dcfee18938923746e12c959b0ff52" refkind="member"><highlight class="normal">leng<sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>x<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>series:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>candle<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>x:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f.write(str(candle)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>leng<sp/>+=<sp/>1</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">print(</highlight><highlight class="stringliteral">&quot;Asynchronous<sp/>Get<sp/>Complete.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">print(</highlight><highlight class="stringliteral">&quot;Time<sp/>Elapsed:<sp/>&quot;</highlight><highlight class="normal">,<sp/>duration,<sp/></highlight><highlight class="stringliteral">&quot;<sp/>seconds.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">print(</highlight><highlight class="stringliteral">&quot;Total<sp/>Candles:<sp/>&quot;</highlight><highlight class="normal">,<sp/>str(leng))</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">print(</highlight><highlight class="stringliteral">&quot;Rate:<sp/>&quot;</highlight><highlight class="normal">,<sp/>str(leng<sp/>/<sp/>duration),<sp/></highlight><highlight class="stringliteral">&quot;<sp/>candles<sp/>per<sp/>second.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">f.close()</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts/asynch_example.py"/>
+  </compounddef>
+</doxygen>

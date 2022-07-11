@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception" kind="class" prot="public">
+    <compoundname>BitGetTrader::bitget::exceptions::BitgetParamsException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1ae97123037eb62352901f222751d607e3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>BitGetTrader.bitget.exceptions.BitgetParamsException::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="45" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1ab7766e0bcaca951903829441a9195ef4" compoundref="exceptions_8py" startline="47" endline="49">BitGetTrader.bitget.exceptions.BitgetParamsException.__str__</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1a97e3fb02990259439f26c32c1f4e1380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.exceptions.BitgetParamsException.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="44" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1ab7766e0bcaca951903829441a9195ef4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.exceptions.BitgetParamsException.__str__</definition>
+        <argsstring></argsstring>
+        <name>__str__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="47" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="47" bodyend="49"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a98d80f8716a919ff43dc85e07f0a315c" compoundref="exceptions_8py" startline="11">BitGetTrader.bitget.exceptions.BitgetAPIException.message</references>
+        <references refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_request_exception_1a28a47a184488457709b3793dc8915ee8" compoundref="exceptions_8py" startline="35">BitGetTrader.bitget.exceptions.BitgetRequestException.message</references>
+        <references refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1ae97123037eb62352901f222751d607e3" compoundref="exceptions_8py" startline="45">BitGetTrader.bitget.exceptions.BitgetParamsException.message</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="15">
+        <label>Exception</label>
+      </node>
+      <node id="14">
+        <label>BitGetTrader.bitget.exceptions.BitgetParamsException</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="17">
+        <label>Exception</label>
+      </node>
+      <node id="16">
+        <label>BitGetTrader.bitget.exceptions.BitgetParamsException</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" line="42" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/exceptions.py" bodystart="42" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1a97e3fb02990259439f26c32c1f4e1380" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::exceptions::BitgetParamsException</scope><name>__init__</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1ab7766e0bcaca951903829441a9195ef4" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::exceptions::BitgetParamsException</scope><name>__str__</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1ae97123037eb62352901f222751d607e3" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::exceptions::BitgetParamsException</scope><name>message</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

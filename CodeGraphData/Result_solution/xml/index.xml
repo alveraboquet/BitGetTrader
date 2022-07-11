@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_bit_get_trader_1_1bitget_1_1mix_1_1account__api_1_1_account_api" kind="class"><name>BitGetTrader::bitget::mix::account_api::AccountApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1account__api_1_1_account_api_1a16b2032a7586bb0931a218c8c2bb0f4c" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1account__api_1_1_account_api_1a2ec8c113f36b7115f4d780296dcf956e" kind="function"><name>account</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1account__api_1_1_account_api_1a022fa04a34c823a76f45cc8344619a28" kind="function"><name>leverage</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1account__api_1_1_account_api_1afa13b8ac9b2fb7a145943395472993b5" kind="function"><name>margin</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1account__api_1_1_account_api_1a393ac6cf3e708814397b20c70d38715a" kind="function"><name>margin_mode</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1account__api_1_1_account_api_1a310316c5eb89928863842e51ab82d4ec" kind="function"><name>position_mode</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1account__api_1_1_account_api_1ae303107c1d216d6a781f4ca98bf29fe1" kind="function"><name>open_count</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1account__api_1_1_account_api_1a679b984559a1f75cf29e9a3f762511bf" kind="function"><name>accounts</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1account__api_1_1_account_api_1aa6e2a2411e595d2587b43b900fbba784" kind="function"><name>accountBill</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1spot_1_1account__api_1_1_account_api" kind="class"><name>BitGetTrader::bitget::spot::account_api::AccountApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1account__api_1_1_account_api_1ade10c4a3a5dc2ddd4f839af160b5df91" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1account__api_1_1_account_api_1a48a28f05ab0eb0cc9c4ac1b4fb26a87f" kind="function"><name>assets</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1account__api_1_1_account_api_1a71b975075e76bf791111eadfe3847326" kind="function"><name>bills</name></member>
+  </compound>
+  <compound refid="classbitget__ws__client_1_1_base_ws_req" kind="class"><name>bitget_ws_client::BaseWsReq</name>
+    <member refid="classbitget__ws__client_1_1_base_ws_req_1a9441e6f1f643050a326e9c76be48dd90" kind="variable"><name>op</name></member>
+    <member refid="classbitget__ws__client_1_1_base_ws_req_1a94169a6fd3446cd58c2b14873d0e33c0" kind="variable"><name>args</name></member>
+    <member refid="classbitget__ws__client_1_1_base_ws_req_1aeb11bdaa7b7bdbdc5a632aa5c25b2aa8" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception" kind="class"><name>BitGetTrader::bitget::exceptions::BitgetAPIException</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a9ea0ab35c26a97b92c49937332b395c3" kind="variable"><name>code</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a98d80f8716a919ff43dc85e07f0a315c" kind="variable"><name>message</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1aa3920aaf75d0b088ead234960b88ee5c" kind="variable"><name>status_code</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1ab471aacea465623f04a47de8ca9e37b9" kind="variable"><name>response</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a10e5a7954788ac1a4354155695f5dab9" kind="variable"><name>request</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a3a7df30b763678db35e59b6e5df48d07" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_a_p_i_exception_1a334945ca622b03216d5e33102b3081ce" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception" kind="class"><name>BitGetTrader::bitget::exceptions::BitgetParamsException</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1ae97123037eb62352901f222751d607e3" kind="variable"><name>message</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1a97e3fb02990259439f26c32c1f4e1380" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_params_exception_1ab7766e0bcaca951903829441a9195ef4" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_request_exception" kind="class"><name>BitGetTrader::bitget::exceptions::BitgetRequestException</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_request_exception_1a28a47a184488457709b3793dc8915ee8" kind="variable"><name>message</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_request_exception_1accc38a680947624fa8ecbbe1c02bd01e" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1exceptions_1_1_bitget_request_exception_1a6e085d97e17b246ec62da17e063d4a4d" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="classbitget__ws__client_1_1_bitget_ws_client" kind="class"><name>bitget_ws_client::BitgetWsClient</name>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a9960d7a112c63739820355ebff08d0ee" kind="variable"><name>__need_login</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a9767bdb11676e1239083ec57d65d1ff8" kind="variable"><name>__connection</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1addacfa15c108d5af56039362f3de24a7" kind="variable"><name>__login_status</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a50b467da7d4d8622d8c0d783bdc48654" kind="variable"><name>__reconnect_status</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a53e8afea7262c29ea2cfd5b96ce99485" kind="variable"><name>__api_key</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a3d169048f5f56408cb1fd1ab58cde26e" kind="variable"><name>__api_secret_key</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1aeb5e522236c85d017d658b90b4671f33" kind="variable"><name>__passphrase</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1ab307768ab5a78561031fc086fe88a986" kind="variable"><name>__all_suribe</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1aadbfb345ff114073245a4a79be09072c" kind="variable"><name>__listener</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1adc1267d7dc0b90365f27a52c7e56c59b" kind="variable"><name>__error_listener</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a0154f8f19ece9a6744c2c837404e807c" kind="variable"><name>__url</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a3874fa98f3af127b66f3f207d8c0670d" kind="variable"><name>__scribe_map</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a698a86b72adbd244a9d6b641d8b388ee" kind="variable"><name>__allbooks_map</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a2020a2beb3646b513d90d914b2b04123" kind="variable"><name>__ws_client</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1aa97d7b1416886e9e7a1cdf343025a0bc" kind="function"><name>__init__</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1aeef6f44ce1dad0bcc210cf66b26e9637" kind="function"><name>build</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a56c5dd4631fb76c73f85d173c17eab56" kind="function"><name>api_key</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1ac25a4a15a3ca3c54019c718b911768fa" kind="function"><name>api_secret_key</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1ac95430b06cb825ddd37f942158024be7" kind="function"><name>passphrase</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1ab93de5a21cc8782d91a3ed612c66aec0" kind="function"><name>listener</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a1c501a8f34de7f0a5d4c09b11db57f88" kind="function"><name>error_listener</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1ae9f11a4731f6d4ce5c01511b37634e3b" kind="function"><name>has_connect</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1ac6fa860a7ef3a2a60af0e8406998637d" kind="function"><name>connect</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a181328b5df212b4aa4d4e8e6a3aae106" kind="function"><name>send_message</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a1ce41d071d1197358674e4865e55c2fe" kind="function"><name>subscribe</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a1b1468228d55ba8a1712dc0592db1291" kind="function"><name>unsubscribe</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a04140941e8c85ecbb639a3492c4803cc" kind="function"><name>get_listener</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1aa56ba767d2b382cfc9cc4a1ed92c6ace" kind="function"><name>__init_client</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a781837e87450f9e56deb1cb706703fc7" kind="function"><name>__login</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a6e8bf38c154c3ee1fc42852fa5452779" kind="function"><name>__keep_connected</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a6940fee120a9f47efcb16528352a5da4" kind="function"><name>__on_open</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1ac61407ba60343bcb9895439e2a166eab" kind="function"><name>__on_message</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a3da476e5f1ad4c1ebd665a383e1b3584" kind="function"><name>__dict_books_info</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a80a9a4a9bf4fd0041da0693cfe92fb65" kind="function"><name>__dict_to_subscribe_req</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1ab092c74d7aba184f022dff0d58f9f1fe" kind="function"><name>__on_error</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a096c9a2c4ffdabf0f57215d781351eb1" kind="function"><name>__on_close</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a71a7a0d75486645b65630755e49804ad" kind="function"><name>__re_connect</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a1170495109dc03bb099f774c2a38d476" kind="function"><name>__close</name></member>
+    <member refid="classbitget__ws__client_1_1_bitget_ws_client_1a84ba3c1346fcc5f72e3bd42c0658f4de" kind="function"><name>__check_sum</name></member>
+  </compound>
+  <compound refid="classbitget__ws__client_1_1_books_info" kind="class"><name>bitget_ws_client::BooksInfo</name>
+    <member refid="classbitget__ws__client_1_1_books_info_1a9cb459fbcf6bbd055384f4eea4b328d1" kind="variable"><name>asks</name></member>
+    <member refid="classbitget__ws__client_1_1_books_info_1a07e76789af73b546ec8c4aafb48f0318" kind="variable"><name>bids</name></member>
+    <member refid="classbitget__ws__client_1_1_books_info_1a188e080d5b7de7fed74ab18127e6cfb9" kind="variable"><name>checksum</name></member>
+    <member refid="classbitget__ws__client_1_1_books_info_1aadd3817d654278cc547b3152ade286eb" kind="function"><name>__init__</name></member>
+    <member refid="classbitget__ws__client_1_1_books_info_1abc6ac9d02e11d65099195d12a8d07cab" kind="function"><name>merge</name></member>
+    <member refid="classbitget__ws__client_1_1_books_info_1a776d4c7b1d25e179a434295fcae93ea0" kind="function"><name>innerMerge</name></member>
+    <member refid="classbitget__ws__client_1_1_books_info_1a7f2f15630911bd5a006009a7bc22bf2a" kind="function"><name>check_sum</name></member>
+    <member refid="classbitget__ws__client_1_1_books_info_1aeae88cc24706f172be62eae1b680e789" kind="function"><name>__signed_int</name></member>
+  </compound>
+  <compound refid="classcandle_1_1_candle" kind="class"><name>candle::Candle</name>
+    <member refid="classcandle_1_1_candle_1ac8e91420d38a1e627c2977f1b780f803" kind="variable"><name>t</name></member>
+    <member refid="classcandle_1_1_candle_1a82cf6e3f16076b3face4e9c642a229a2" kind="variable"><name>o</name></member>
+    <member refid="classcandle_1_1_candle_1acfbcd542d3d1a87db76d1805e5c8a718" kind="variable"><name>h</name></member>
+    <member refid="classcandle_1_1_candle_1a5bf556872b00c3c4c3c9a8bf7999447a" kind="variable"><name>l</name></member>
+    <member refid="classcandle_1_1_candle_1afee0c4e1f7d4a12624306aa0c2c37e38" kind="variable"><name>c</name></member>
+    <member refid="classcandle_1_1_candle_1aa13fcd2b1b0459fb6e44383fe1f6a287" kind="variable"><name>b</name></member>
+    <member refid="classcandle_1_1_candle_1a7eb05509aaa9087f32175c19713103f8" kind="variable"><name>q</name></member>
+    <member refid="classcandle_1_1_candle_1a2dd7fed41c17541c1159dc7cf4187c48" kind="function"><name>__init__</name></member>
+    <member refid="classcandle_1_1_candle_1a3165bd355017284b8308811b66a9fb34" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client" kind="class"><name>BitGetTrader::bitget::client::Client</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1a70f2b9689f240f468dd2d5b7255a5ead" kind="variable"><name>API_KEY</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1af0462ed45bd80c56bfd112fd06be9dd4" kind="variable"><name>API_SECRET_KEY</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1af175500129e33e3cd61e89bd82a894f6" kind="variable"><name>PASSPHRASE</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1a2c78fac21898775e9692fcc98a48b70a" kind="variable"><name>use_server_time</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1a2227c5f1acbe3ecb31f563bb1d083cb0" kind="variable"><name>first</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1a72e8cc0b9b27d572214a0cef3facf4d1" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1a1abc79a04f1241ce77f15464da67d813" kind="function"><name>_request</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1af77b67e8b1f1c7e7c95591c3e77f7a01" kind="function"><name>_request_without_params</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" kind="function"><name>_request_with_params</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1a6667ec2c4fc4748755e7cba4a99bd4cf" kind="function"><name>_get_timestamp</name></member>
+  </compound>
+  <compound refid="classcontract_1_1_contract" kind="class"><name>contract::Contract</name>
+    <member refid="classcontract_1_1_contract_1ab7a69d4bf0b656921e8d72bf0bf1eb07" kind="variable"><name>symbol</name></member>
+    <member refid="classcontract_1_1_contract_1a468c154b1be6459d82bc26a1ca380765" kind="variable"><name>maker</name></member>
+    <member refid="classcontract_1_1_contract_1a8b552f2131363e6af1fa91dab41bcba1" kind="variable"><name>taker</name></member>
+    <member refid="classcontract_1_1_contract_1a8cbb219914c0a23b84fc8025f0e9d943" kind="variable"><name>feeRate</name></member>
+    <member refid="classcontract_1_1_contract_1a24019d5ade79b700ef58087d5feb93f4" kind="variable"><name>openCost</name></member>
+    <member refid="classcontract_1_1_contract_1ae75885b81f4565422bad3c2671e02c3f" kind="variable"><name>quote</name></member>
+    <member refid="classcontract_1_1_contract_1a33dec8c6d4eada200b1ff46f17f2377b" kind="variable"><name>base</name></member>
+    <member refid="classcontract_1_1_contract_1a46e911173dfbe00d6158343dd25a38fe" kind="variable"><name>buyRatio</name></member>
+    <member refid="classcontract_1_1_contract_1a65fcab84275c4da54e753c2a36c20edc" kind="variable"><name>sellRatio</name></member>
+    <member refid="classcontract_1_1_contract_1ab002337366a56b661472db3409333cfa" kind="variable"><name>marginCoins</name></member>
+    <member refid="classcontract_1_1_contract_1a3552f829b4a85d0c382485476c72b6e8" kind="variable"><name>minTradeNum</name></member>
+    <member refid="classcontract_1_1_contract_1a83f64b536aed079bbf8c1bc28fa01888" kind="variable"><name>priceEndStep</name></member>
+    <member refid="classcontract_1_1_contract_1a5e383921722047e0d3959099099d77f2" kind="variable"><name>volumePlace</name></member>
+    <member refid="classcontract_1_1_contract_1a288a6ae3418e8b3c8eb0fde6db9ca57a" kind="variable"><name>pricePlace</name></member>
+    <member refid="classcontract_1_1_contract_1acb2286a8f23c05987315e77f9be079f9" kind="variable"><name>last</name></member>
+    <member refid="classcontract_1_1_contract_1a03d7a857e3e331d08b94ee099bae8b02" kind="variable"><name>bestAsk</name></member>
+    <member refid="classcontract_1_1_contract_1a2b0841f2c987e1e2cd5c3a04f92d2f5d" kind="variable"><name>bestBid</name></member>
+    <member refid="classcontract_1_1_contract_1ad04f628996f45c68e6448c29ac63b04d" kind="variable"><name>high24h</name></member>
+    <member refid="classcontract_1_1_contract_1a890e2e886ae1099a4628ba0bf1def705" kind="variable"><name>low24h</name></member>
+    <member refid="classcontract_1_1_contract_1adf9231aecb10b9a1b872bb0aed596a08" kind="variable"><name>timechecked</name></member>
+    <member refid="classcontract_1_1_contract_1ae73503bf3f73df99e88cb65edb6f4a03" kind="variable"><name>baseVolume</name></member>
+    <member refid="classcontract_1_1_contract_1ac2ecd23ac87cc154b23660b2e6517186" kind="variable"><name>quoteVolume</name></member>
+    <member refid="classcontract_1_1_contract_1abc4716a6bd7785ffa756d9943487a39c" kind="variable"><name>usdtVolume</name></member>
+    <member refid="classcontract_1_1_contract_1a6b10d30c1e9dd6b6002f2fa3b535a9d5" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1screener_1_1customize_headers_1_1_custom_headers" kind="class"><name>BitGetTrader::screener::customizeHeaders::CustomHeaders</name>
+    <member refid="class_bit_get_trader_1_1screener_1_1customize_headers_1_1_custom_headers_1a2248874ed848e1b6d979894e9a360112" kind="variable"><name>allHeaders</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1customize_headers_1_1_custom_headers_1aebbbe7dff03fef3ce7136e797f7b3508" kind="variable"><name>usedHeaders</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1customize_headers_1_1_custom_headers_1a0da63db686d68d100677b50ddfc3e0db" kind="variable"><name>initialUsed</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1customize_headers_1_1_custom_headers_1a44af5f586deb123a5b0e38969fb8cf76" kind="variable"><name>unusedHeaders</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1customize_headers_1_1_custom_headers_1a9eae1d10525b0503e95b713c98e60761" kind="variable"><name>initialUnused</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1customize_headers_1_1_custom_headers_1abea77d10c9407ae329d278f62bb5b5cb" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1customize_headers_1_1_custom_headers_1acd8c423338162e516c8e5d7231a6b0ca" kind="function"><name>buildUI</name></member>
+  </compound>
+  <compound refid="classtimeseries_1_1_date_range_too_large_error" kind="class"><name>timeseries::DateRangeTooLargeError</name>
+    <member refid="classtimeseries_1_1_date_range_too_large_error_1a4d891c51d66e6bbba86205813289e2d0" kind="variable"><name>message</name></member>
+    <member refid="classtimeseries_1_1_date_range_too_large_error_1adc65f1634e2b3e43b95b15ff6306a019" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="classtimeseries__asynch_1_1_date_range_too_large_error" kind="class"><name>timeseries_asynch::DateRangeTooLargeError</name>
+    <member refid="classtimeseries__asynch_1_1_date_range_too_large_error_1a3e6ca630c52498f94039eb3873aa51ff" kind="variable"><name>message</name></member>
+    <member refid="classtimeseries__asynch_1_1_date_range_too_large_error_1a0ca080854691bf2fec4b806562fd6428" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api" kind="class"><name>BitGetTrader::bitget::spot::market_api::MarketApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1aa8a9cd78e6ed49dc35a931ab18569641" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a7e1c94866cc5ac66b80b4404bb0ce3be" kind="function"><name>fills</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a6a17022ace18edd25da701f6274426d2" kind="function"><name>depth</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a079b3b51294be4894354de724ba1fde3" kind="function"><name>ticker</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a31e6a0d08bc917cf24e38883393bb049" kind="function"><name>tickers</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1acb415f1854d8ad9d8ebee5bf602bead4" kind="function"><name>candles</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api" kind="class"><name>BitGetTrader::bitget::mix::market_api::MarketApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1aa6016e4eb473779ca16b41f331a76814" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1a1922494f3d9ab70855a38685e23a8aed" kind="function"><name>contracts</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1a9dc7347c4afec80f95215c8693fd67f5" kind="function"><name>depth</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1a5a685ac7a597a63686630ddfa3c1a775" kind="function"><name>ticker</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1a6d813721b6805deee6489312450fa391" kind="function"><name>tickers</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1a5b178b1a81f0ef3eb27aaa8492b6b34d" kind="function"><name>fills</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1a0b71b330648f9e0317e6dc904194c441" kind="function"><name>candles</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1a8ee9447cdffdb16120ef7feee76bf291" kind="function"><name>index</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1a1567069fb40b9ee975d24c4f7c489bba" kind="function"><name>funding_time</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1aaf69a6e591b425e6d410fd8e767539cd" kind="function"><name>market_price</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1a5825e82bb307bb70d434fce25205c18f" kind="function"><name>history_fund_rate</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1aeda266ab5d3da7550a724be39290cd70" kind="function"><name>current_fund_rate</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1market__api_1_1_market_api_1a083f81a6242f0d7e022d4735021a8dce" kind="function"><name>open_interest</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1spot_1_1order__api_1_1_order_api" kind="class"><name>BitGetTrader::bitget::spot::order_api::OrderApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1order__api_1_1_order_api_1a43ab850f22e27631c368047266019959" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1order__api_1_1_order_api_1a7e5b59e722c67f381e941835c044f99b" kind="function"><name>orders</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1order__api_1_1_order_api_1a7a65ba187285769d242affd36069e5c0" kind="function"><name>batch_orders</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1order__api_1_1_order_api_1a9f329a30f106d338011cedfb499688d8" kind="function"><name>cancel_orders</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1order__api_1_1_order_api_1a3cae7c3836a0dabca53195a610dbfb4e" kind="function"><name>cancel_batch_orders</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1order__api_1_1_order_api_1a308e45a5aad9e1ccaae29b036ba42675" kind="function"><name>order_info</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1order__api_1_1_order_api_1a3ed5dd7004a295ad502e0259e313d316" kind="function"><name>open_order</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1order__api_1_1_order_api_1afa31b5ef6ba5e46992cd52a6fa3d742a" kind="function"><name>history</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1order__api_1_1_order_api_1a320e4a0f77236e549b153d43fe7616ac" kind="function"><name>fills</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api" kind="class"><name>BitGetTrader::bitget::mix::order_api::OrderApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a3d7c65d772e81adae213548a02ec6b6a" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1aff0bbd57a4f26d4cb2cd4a74b1376be9" kind="function"><name>place_order</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a1d6ff2ec9341bb75b117afd56c3d77b3" kind="function"><name>batch_orders</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a1e3b9657457f46b27d972626de3f5356" kind="function"><name>cancel_orders</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a1509dc407662fe87ca6763d05f651a83" kind="function"><name>cancel_batch_orders</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1af7750725253f02edefe1ba27bcd3fa88" kind="function"><name>detail</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a3d4f78dc157c92bdbb3ebaaa38d54d56" kind="function"><name>current</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a515e8e0c79bb156fac97019e0b775623" kind="function"><name>history</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1order__api_1_1_order_api_1a523ad8147a412e9a30c8a84f094cf0b2" kind="function"><name>fills</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1mix_1_1plan__api_1_1_plan_api" kind="class"><name>BitGetTrader::bitget::mix::plan_api::PlanApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1plan__api_1_1_plan_api_1af2ad46d71d33df3bc1305dcea2d2c285" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1plan__api_1_1_plan_api_1a94d91f474e1dd4fbe71162cdd13b712b" kind="function"><name>place_plan</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1plan__api_1_1_plan_api_1a3026e71dee4f6197e716f5aa35bbdac4" kind="function"><name>modify_plan</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1plan__api_1_1_plan_api_1a6e48ecb89755d070cd58ce16070d15ae" kind="function"><name>modify_plan_preset</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1plan__api_1_1_plan_api_1ab4310472cb30189d73205979a0b7bd2b" kind="function"><name>modify_tpsl_plan</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1plan__api_1_1_plan_api_1a404bc06aa64b9020b95ca94aa7d3416d" kind="function"><name>place_tpsl</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1plan__api_1_1_plan_api_1a7f7c006727036705d98f0e5c4246901a" kind="function"><name>cancel_plan</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1plan__api_1_1_plan_api_1a92dd8b82f2cc87784f2d89db6956aae1" kind="function"><name>current_plan</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1plan__api_1_1_plan_api_1a9ffe39cfef0c82f566fcfa6d99dd47ce" kind="function"><name>history_plan</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api" kind="class"><name>BitGetTrader::bitget::mix::position_api::PositionApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a119720c141edcf378365c5c40172374b" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a5ecc88274059c08c1e80896fca3e03ad" kind="function"><name>single_position</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1position__api_1_1_position_api_1a66c6a59fc008fc95e29abeee97866717" kind="function"><name>all_position</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api" kind="class"><name>BitGetTrader::bitget::spot::public_api::PublicApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1afcf9d4dffc1fddbd8ad730bad9145f6b" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1af371f6af07f263d13c062452368ad2b1" kind="function"><name>times</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1abfb8640194c4e900a16d85abb47823be" kind="function"><name>currencies</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1afb9918e3f89b327843441d785e8ab594" kind="function"><name>products</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1a8b787a307667dea88195b0589ceaa50d" kind="function"><name>product</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener" kind="class"><name>BitGetTrader::screener::screener::Screener</name>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1affb6724550f1408084f300353f3796a2" kind="variable"><name>left</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a2684db5527b54bc0e256d95cf3f342fd" kind="variable"><name>top</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a6e4a9568f20cae08de51f5cc27e37015" kind="variable"><name>width</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a08b642484174c75d2308de4e8cfe9818" kind="variable"><name>height</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a72c8fbe52133174b616f89ca8d92e2e8" kind="variable"><name>types</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a4c2a342becf694f6a2c86a5e6d1478ba" kind="variable"><name>lSelect</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a0d58179bc94b640ed471f17b4fcaa300" kind="variable"><name>rSelect</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a5ff61cb64f6619b1ce8e509e78528bc1" kind="variable"><name>headers</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a617b7eaa2ad342ef91dd2a75ff1af081" kind="variable"><name>allHeaders</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a0e904b5e886216308523eade35eea982" kind="variable"><name>unusedHeaders</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a1891ddd6e32d3b76a9516bf2c091ab64" kind="variable"><name>mAPI</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a6c2931d1d9ecdf265f49a4c8a2e0c033" kind="variable"><name>table</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a7a9556b45e3d74cd06835ca63bf76e38" kind="variable"><name>toolbar</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1aa44ad684b3a09d0b1396d301aba205f8" kind="variable"><name>layout</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a14afd583927e4d3093a8f3a065a9c18f" kind="variable"><name>tableWidget</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a227e874fcf2092f4513b2c6cfb6bff3e" kind="variable"><name>tempUnusedHeaders</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a26d795be140f883e73c4630d5c905a29" kind="variable"><name>tempUsedHeaders</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a00e2fc8cfbc1859718e7e2f781062f21" kind="variable"><name>headerWin</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1aff97701d28f8dbf1a61df176ed6411bf" kind="variable"><name>topHeaderWin</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a565e3fca637013af8528aca5123bdda4" kind="variable"><name>topHeaderLayout</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a2d1b1e47b6323aa6ed8d11cd3c4e2f78" kind="variable"><name>usedList</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a61290bd4318fec3641f65e468ec83425" kind="variable"><name>unusedList</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a443a7a725b9e6505a46797e437e0fec7" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a4ea11df8654e9027976a41413a7fa3ed" kind="function"><name>buildTable</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1ab9acdac283043ee235b61550eeb7f3e3" kind="function"><name>getTableData</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a10f1407ea3aea34467b5906ec1cc0d98" kind="function"><name>buildToolbar</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1ae9099522b75b2177dfae1b8cccf72c38" kind="function"><name>applyHeaderChanges</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a7832d162d0dbb00b5f2cdbdf21101d58" kind="function"><name>getHeaderFromVal</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a4cd3b572e123c5e65b42d4e671dcc2d0" kind="function"><name>getKeyFromPair</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1ab196235f9fb124be6c018e21a3dcc4ae" kind="function"><name>makeUnused</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a39f72aea906268b2588f7711514a9f5d" kind="function"><name>makeUsed</name></member>
+    <member refid="class_bit_get_trader_1_1screener_1_1screener_1_1_screener_1a57dd7314899f74ac3bf143a17d085c8a" kind="function"><name>buildHeaderUI</name></member>
+  </compound>
+  <compound refid="classbitget__ws__client_1_1_subscribe_req" kind="class"><name>bitget_ws_client::SubscribeReq</name>
+    <member refid="classbitget__ws__client_1_1_subscribe_req_1a93b4f0ea107a0e0f3b85773ac5a65afa" kind="variable"><name>inst_type</name></member>
+    <member refid="classbitget__ws__client_1_1_subscribe_req_1ae85aa0757e865aa34299b6344c221c8e" kind="variable"><name>channel</name></member>
+    <member refid="classbitget__ws__client_1_1_subscribe_req_1a29832f367093344a73516e8d581c3edc" kind="variable"><name>inst_id</name></member>
+    <member refid="classbitget__ws__client_1_1_subscribe_req_1aafd56896fafba7812a59a0706cc63dc2" kind="variable"><name>__dict__</name></member>
+    <member refid="classbitget__ws__client_1_1_subscribe_req_1a28d1b92fb3b78d3d0b7c013e8e773849" kind="function"><name>__init__</name></member>
+    <member refid="classbitget__ws__client_1_1_subscribe_req_1a7d63c2479d82e745186d06643a1a634f" kind="function"><name>__eq__</name></member>
+    <member refid="classbitget__ws__client_1_1_subscribe_req_1a1c3ead4c28206cfa3375141ab30cbd55" kind="function"><name>__hash__</name></member>
+  </compound>
+  <compound refid="classtimeseries_1_1_time_series" kind="class"><name>timeseries::TimeSeries</name>
+    <member refid="classtimeseries_1_1_time_series_1a75129dbc3a8d2776795c35d6a3f4d1be" kind="variable"><name>api</name></member>
+    <member refid="classtimeseries_1_1_time_series_1ab7e52656260c3a6d81418343c8dd9789" kind="function"><name>__init__</name></member>
+    <member refid="classtimeseries_1_1_time_series_1aa8a61f715bb8b2bf4348d72d853eaffa" kind="function"><name>getSeries</name></member>
+  </compound>
+  <compound refid="classtimeseries__asynch_1_1_time_series_asynch" kind="class"><name>timeseries_asynch::TimeSeriesAsynch</name>
+    <member refid="classtimeseries__asynch_1_1_time_series_asynch_1a1de127aa6a9c207eeff9a7b4d6d57afe" kind="variable"><name>api</name></member>
+    <member refid="classtimeseries__asynch_1_1_time_series_asynch_1acfbf09a855c58fb9037829f78a794006" kind="function"><name>__init__</name></member>
+    <member refid="classtimeseries__asynch_1_1_time_series_asynch_1a22eb41938bc99d26cabc77fcddf72e46" kind="function"><name>candles_async</name></member>
+    <member refid="classtimeseries__asynch_1_1_time_series_asynch_1aae8ff5806de73768e11d7f3c324a2fd6" kind="function"><name>getSeries</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api" kind="class"><name>BitGetTrader::bitget::mix::trace_api::TraceApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a02704c0b6f4bc651d3e89993ba4a98cd" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a9f43624ca1292ab772e499368581710c" kind="function"><name>close_track_order</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a74ede6ef8ac2cfbc77ee4fb5bb71a05f" kind="function"><name>current_track</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a35b5b07c0c2ae6b9d880f451f74aa438" kind="function"><name>history_track</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a511f37d0a73ced7c7268576df6113991" kind="function"><name>summary</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1add9303e3e2808c0a6c305156da8016b8" kind="function"><name>profit_settle_margin_coin</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a5fe3f3125328586b987d37b7d0e20423" kind="function"><name>profit_date_group</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a2265b73c899ff28005a30400d7ae1e62" kind="function"><name>profit_date_detail</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1af518bdff9145d66fa34c41876391affe" kind="function"><name>wait_profit_detail</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a184cecc785c3a15b1a70823da226505c" kind="function"><name>follower_history_orders</name></member>
+  </compound>
+  <compound refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api" kind="class"><name>BitGetTrader::bitget::spot::wallet_api::WalletApi</name>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a0202a7b71bb8f693b5fd6d2a37c8bcd3" kind="function"><name>__init__</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a7877bff9dec6326d345c7b00120eb3f3" kind="function"><name>transfer</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a76d8ef8e2b7c56fc3dd7373af24721de" kind="function"><name>depositAddress</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a8f96294af7569137211b17f6be3df846" kind="function"><name>withdrawal</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a38dca8c89c33132faadf997fb91f9163" kind="function"><name>withdrawalInner</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a81562f48412a4578b479f6d0b57323a7" kind="function"><name>withdrawalList</name></member>
+    <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api_1_1_wallet_api_1a20f358451ba30982fcfb65840ed9614f" kind="function"><name>depositList</name></member>
+  </compound>
+  <compound refid="classbitget__ws__client_1_1_ws_login_req" kind="class"><name>bitget_ws_client::WsLoginReq</name>
+    <member refid="classbitget__ws__client_1_1_ws_login_req_1afba84a206f8e9463de4d9f9ad0d36c9d" kind="variable"><name>api_key</name></member>
+    <member refid="classbitget__ws__client_1_1_ws_login_req_1a5f3a184bf46ceba22946c52cd6c535d1" kind="variable"><name>passphrase</name></member>
+    <member refid="classbitget__ws__client_1_1_ws_login_req_1a07755547969d78ae823585a31499598a" kind="variable"><name>timestamp</name></member>
+    <member refid="classbitget__ws__client_1_1_ws_login_req_1ae7da9c483a93386382c4b2ceedb40b5f" kind="variable"><name>sign</name></member>
+    <member refid="classbitget__ws__client_1_1_ws_login_req_1aa523b27bfef14c9a099e1057ba190379" kind="function"><name>__init__</name></member>
+  </compound>
+  <compound refid="namespaceasynch__example" kind="namespace"><name>asynch_example</name>
+    <member refid="namespaceasynch__example_1a223ca3f2d4aa0f6a114ab053ffe916d2" kind="variable"><name>m</name></member>
+    <member refid="namespaceasynch__example_1a873a87c944c5b97864a4d46225cb5a0e" kind="variable"><name>z</name></member>
+    <member refid="namespaceasynch__example_1a31da5d44674eec28993056132b4b06b2" kind="variable"><name>startTime</name></member>
+    <member refid="namespaceasynch__example_1a50cd6c427a62752f889049cd224c73c2" kind="variable"><name>adjTime</name></member>
+    <member refid="namespaceasynch__example_1a7dd77f55b68c935e46a86133b5ca477d" kind="variable"><name>timeframe</name></member>
+    <member refid="namespaceasynch__example_1ad53b6168dd9ab6a0ed2ac587d91cc087" kind="variable"><name>candleswanted</name></member>
+    <member refid="namespaceasynch__example_1a875812f7042f62d536148bbd040618e0" kind="variable"><name>difference</name></member>
+    <member refid="namespaceasynch__example_1a86e2ba5d81af03cd4ed5c382784ff2c1" kind="variable"><name>series</name></member>
+    <member refid="namespaceasynch__example_1aeb5e58f0a17f0ce6c001df09c2de2a60" kind="variable"><name>duration</name></member>
+    <member refid="namespaceasynch__example_1afdacbfca85007c6726bf47e535837a2b" kind="variable"><name>f</name></member>
+    <member refid="namespaceasynch__example_1ab99dcfee18938923746e12c959b0ff52" kind="variable"><name>leng</name></member>
+  </compound>
+  <compound refid="namespacebitget__ws__client" kind="namespace"><name>bitget_ws_client</name>
+    <member refid="namespacebitget__ws__client_1a99ad7b0fcb4567a1816a50c111fc92c6" kind="variable"><name>WS_OP_LOGIN</name></member>
+    <member refid="namespacebitget__ws__client_1a9f76a956144735247e90ffb3324d9f9a" kind="variable"><name>WS_OP_SUBSCRIBE</name></member>
+    <member refid="namespacebitget__ws__client_1a9f95aa3dc2b9756137c6d5a4ae8eba79" kind="variable"><name>WS_OP_UNSUBSCRIBE</name></member>
+    <member refid="namespacebitget__ws__client_1aaa3c3be888da37cfb82530c63bfb7523" kind="function"><name>handle</name></member>
+    <member refid="namespacebitget__ws__client_1a88e0b3f74369b58ba6ee555c9cc7e398" kind="function"><name>handel_error</name></member>
+  </compound>
+  <compound refid="namespace_bit_get_trader" kind="namespace"><name>BitGetTrader</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget" kind="namespace"><name>BitGetTrader::bitget</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1client" kind="namespace"><name>BitGetTrader::bitget::client</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1consts" kind="namespace"><name>BitGetTrader::bitget::consts</name>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a8824ee93a34e89e139c7187895d0d0e0" kind="variable"><name>CONTENT_TYPE</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1accfd44d8e7c02d838a51cabc417bf423" kind="variable"><name>OK_ACCESS_KEY</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a4765e3ca2d14bcdc6ee260fbaadc47a5" kind="variable"><name>OK_ACCESS_SIGN</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ae44a61d1151d60ef2e80aa2b9c58c93e" kind="variable"><name>OK_ACCESS_TIMESTAMP</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a833961aca20d783395325e91e45a63e8" kind="variable"><name>OK_ACCESS_PASSPHRASE</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ae1b5837e0cc4f16828758807fa021ff2" kind="variable"><name>APPLICATION_JSON</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a7b276daebaebe39f74e8ba09ae31d584" kind="variable"><name>ACEEPT</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a53813e009270c55b96eb7ff748824437" kind="variable"><name>COOKIE</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a812a79f55096334e88da7059f0073836" kind="variable"><name>LOCALE</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a064ff545ff8c38894f11a74e68342647" kind="variable"><name>GET</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ad4b61f7bda7dd41d93d25fb6f129445f" kind="variable"><name>POST</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a3a82395cafe28e893c78285956c25cf9" kind="variable"><name>DELETE</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1af521ce3226cb3a6e0825794883869a7c" kind="variable"><name>API_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a7a5e2fe0cdea50e954d2caf8fdd30e4a" kind="variable"><name>CONTRACT_WS_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ac60ff2cb90fed6140b06724332bbcfd8" kind="variable"><name>SPOT_PUBLIC_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a4fd78d936add9569950f72df99599fd5" kind="variable"><name>SPOT_MARKET_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a37c01dceb793a418599430ea722b446a" kind="variable"><name>SPOT_ACCOUNT_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a6610765aa92ae38adbb66ec57b7af5bd" kind="variable"><name>SPOT_ORDER_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a9a988a84d930816bde6dd19bf6d0823b" kind="variable"><name>SPOT_WALLET_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a67a133930728707d3f35809d27554cca" kind="variable"><name>MIX_MARKET_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ac893ad2e56182d47c2b72f74b89b5e62" kind="variable"><name>MIX_ACCOUNT_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a7d8ff665d9a445ea6fb8f33eea37b38f" kind="variable"><name>MIX_POSITION_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ac291144e085a5e5bed9708486b3562c1" kind="variable"><name>MIX_ORDER_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ac6b62c05d40cb104571f42ffebe785bb" kind="variable"><name>MIX_PLAN_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1afbc3714978ff9404618b4ffe0611e145" kind="variable"><name>MIX_TRACE_V1_URL</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a6c61c38f2981bdbc8c87d5530391bfeb" kind="variable"><name>SUBSCRIBE</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ab0f73f50dff8d3d5c018081611da4011" kind="variable"><name>UNSUBSCRIBE</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1consts_1aa2aa6f9f36e1b2ba32c043c81d0dfd5e" kind="variable"><name>LOGIN</name></member>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1exceptions" kind="namespace"><name>BitGetTrader::bitget::exceptions</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1mix" kind="namespace"><name>BitGetTrader::bitget::mix</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1account__api" kind="namespace"><name>BitGetTrader::bitget::mix::account_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1market__api" kind="namespace"><name>BitGetTrader::bitget::mix::market_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1order__api" kind="namespace"><name>BitGetTrader::bitget::mix::order_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1plan__api" kind="namespace"><name>BitGetTrader::bitget::mix::plan_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1position__api" kind="namespace"><name>BitGetTrader::bitget::mix::position_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1trace__api" kind="namespace"><name>BitGetTrader::bitget::mix::trace_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1spot" kind="namespace"><name>BitGetTrader::bitget::spot</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1spot_1_1account__api" kind="namespace"><name>BitGetTrader::bitget::spot::account_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1spot_1_1market__api" kind="namespace"><name>BitGetTrader::bitget::spot::market_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1spot_1_1order__api" kind="namespace"><name>BitGetTrader::bitget::spot::order_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1spot_1_1public__api" kind="namespace"><name>BitGetTrader::bitget::spot::public_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1spot_1_1wallet__api" kind="namespace"><name>BitGetTrader::bitget::spot::wallet_api</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1bitget_1_1utils" kind="namespace"><name>BitGetTrader::bitget::utils</name>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1utils_1ae3b463d1f37e3a037b99f135a5c35335" kind="function"><name>sign</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1utils_1aa73691fa7cc17bf5fd10420c34842f3d" kind="function"><name>pre_hash</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1utils_1aadea5cede4afc5d3a50b19ffb643a807" kind="function"><name>get_header</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1utils_1a895e05c3ca08c7daeab7da872c7b2ab1" kind="function"><name>parse_params_to_str</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1utils_1a47e69b87d343f6ea2458f023d5b147e8" kind="function"><name>get_timestamp</name></member>
+    <member refid="namespace_bit_get_trader_1_1bitget_1_1utils_1a8b15814e823f2e23800656e45822b4ca" kind="function"><name>signature</name></member>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1maintester" kind="namespace"><name>BitGetTrader::maintester</name>
+    <member refid="namespace_bit_get_trader_1_1maintester_1a1376500a8006641c24d896e902a6672d" kind="variable"><name>app</name></member>
+    <member refid="namespace_bit_get_trader_1_1maintester_1a669c63789cad79e216ce41e931be5180" kind="variable"><name>mAPI</name></member>
+    <member refid="namespace_bit_get_trader_1_1maintester_1acaa49511cc2c268cee9dd807418d2b43" kind="variable"><name>c</name></member>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1screener" kind="namespace"><name>BitGetTrader::screener</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1screener_1_1const" kind="namespace"><name>BitGetTrader::screener::const</name>
+    <member refid="namespace_bit_get_trader_1_1screener_1_1const_1a4ccdb63515c4133909d2a1b6a4c27059" kind="variable"><name>TYPES</name></member>
+    <member refid="namespace_bit_get_trader_1_1screener_1_1const_1a86e356539c5e94d7846d03ceef1dee00" kind="variable"><name>CONTRACT_HEADERS</name></member>
+    <member refid="namespace_bit_get_trader_1_1screener_1_1const_1af4ad300d2c6d7cf7164cc4c349b5916d" kind="variable"><name>TICKER_HEADERS</name></member>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1screener_1_1customize_headers" kind="namespace"><name>BitGetTrader::screener::customizeHeaders</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1screener_1_1screener" kind="namespace"><name>BitGetTrader::screener::screener</name>
+  </compound>
+  <compound refid="namespace_bit_get_trader_1_1screener_1_1utils" kind="namespace"><name>BitGetTrader::screener::utils</name>
+    <member refid="namespace_bit_get_trader_1_1screener_1_1utils_1a04c763351bf7fc6a818144596e5da65c" kind="function"><name>getContractsInfo</name></member>
+    <member refid="namespace_bit_get_trader_1_1screener_1_1utils_1a5f28e4fddc2622336822f34af86ad58a" kind="function"><name>getTickersInfo</name></member>
+  </compound>
+  <compound refid="namespacecandle" kind="namespace"><name>candle</name>
+  </compound>
+  <compound refid="namespacecontract" kind="namespace"><name>contract</name>
+  </compound>
+  <compound refid="namespacesign__utils" kind="namespace"><name>sign_utils</name>
+    <member refid="namespacesign__utils_1aa35ce8ba68ab27e8e614aa5879982e3f" kind="function"><name>sign</name></member>
+    <member refid="namespacesign__utils_1a6f33d142c3814077133150f74f7b2c7b" kind="function"><name>pre_hash</name></member>
+    <member refid="namespacesign__utils_1a4d9c2b9ab1fb29fa2ca240d16d0b740f" kind="function"><name>check_none</name></member>
+  </compound>
+  <compound refid="namespacetimeseries" kind="namespace"><name>timeseries</name>
+  </compound>
+  <compound refid="namespacetimeseries__asynch" kind="namespace"><name>timeseries_asynch</name>
+  </compound>
+  <compound refid="client_8py" kind="file"><name>client.py</name>
+  </compound>
+  <compound refid="consts_8py" kind="file"><name>consts.py</name>
+  </compound>
+  <compound refid="exceptions_8py" kind="file"><name>exceptions.py</name>
+  </compound>
+  <compound refid="bitget_2mix_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="bitget_2spot_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="bitget_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="screener_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="mix_2account__api_8py" kind="file"><name>account_api.py</name>
+  </compound>
+  <compound refid="spot_2account__api_8py" kind="file"><name>account_api.py</name>
+  </compound>
+  <compound refid="mix_2market__api_8py" kind="file"><name>market_api.py</name>
+  </compound>
+  <compound refid="spot_2market__api_8py" kind="file"><name>market_api.py</name>
+  </compound>
+  <compound refid="mix_2order__api_8py" kind="file"><name>order_api.py</name>
+  </compound>
+  <compound refid="spot_2order__api_8py" kind="file"><name>order_api.py</name>
+  </compound>
+  <compound refid="plan__api_8py" kind="file"><name>plan_api.py</name>
+  </compound>
+  <compound refid="position__api_8py" kind="file"><name>position_api.py</name>
+  </compound>
+  <compound refid="trace__api_8py" kind="file"><name>trace_api.py</name>
+  </compound>
+  <compound refid="public__api_8py" kind="file"><name>public_api.py</name>
+  </compound>
+  <compound refid="wallet__api_8py" kind="file"><name>wallet_api.py</name>
+  </compound>
+  <compound refid="bitget_2utils_8py" kind="file"><name>utils.py</name>
+  </compound>
+  <compound refid="screener_2utils_8py" kind="file"><name>utils.py</name>
+  </compound>
+  <compound refid="bitget__ws__client_8py" kind="file"><name>bitget_ws_client.py</name>
+  </compound>
+  <compound refid="sign__utils_8py" kind="file"><name>sign_utils.py</name>
+  </compound>
+  <compound refid="asynch__example_8py" kind="file"><name>asynch_example.py</name>
+  </compound>
+  <compound refid="candle_8py" kind="file"><name>candle.py</name>
+  </compound>
+  <compound refid="contract_8py" kind="file"><name>contract.py</name>
+  </compound>
+  <compound refid="timeseries_8py" kind="file"><name>timeseries.py</name>
+  </compound>
+  <compound refid="timeseries__asynch_8py" kind="file"><name>timeseries_asynch.py</name>
+  </compound>
+  <compound refid="maintester_8py" kind="file"><name>maintester.py</name>
+  </compound>
+  <compound refid="const_8py" kind="file"><name>const.py</name>
+  </compound>
+  <compound refid="customize_headers_8py" kind="file"><name>customizeHeaders.py</name>
+  </compound>
+  <compound refid="screener_8py" kind="file"><name>screener.py</name>
+  </compound>
+  <compound refid="dir_3ab35c722d349d44c1b8b652d5828814" kind="dir"><name>C:/Users/bbeaulieu</name>
+  </compound>
+  <compound refid="dir_66deca76e522774e663c56f9fb89983e" kind="dir"><name>C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget</name>
+  </compound>
+  <compound refid="dir_72a236457d216c3366edaa77b04ffd51" kind="dir"><name>C:/Users/bbeaulieu/source/repos/BitGetTrader</name>
+  </compound>
+  <compound refid="dir_7a2fa1c1ac582789b6cca15a977ed099" kind="dir"><name>C:/Users/bbeaulieu/source/repos/BitGetTrader/contracts</name>
+  </compound>
+  <compound refid="dir_ea28fb54e55df3dab6b4421e97ebd8f5" kind="dir"><name>C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix</name>
+  </compound>
+  <compound refid="dir_6494b37d764f4f294bca13d86be354b3" kind="dir"><name>C:/Users/bbeaulieu/source/repos</name>
+  </compound>
+  <compound refid="dir_7df51e47a9005cb0ce198f484c4f360c" kind="dir"><name>C:/Users/bbeaulieu/source/repos/BitGetTrader/screener</name>
+  </compound>
+  <compound refid="dir_210568a6879a6672898d3f92ed854387" kind="dir"><name>C:/Users/bbeaulieu/source</name>
+  </compound>
+  <compound refid="dir_eb216ac6e691ec1214e9eb3403dddb6f" kind="dir"><name>C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+  <compound refid="dir_0e4c5006c6ac6cb7e712c38494b24447" kind="dir"><name>C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws/utils</name>
+  </compound>
+  <compound refid="dir_2ebfd9f78eebbd6f82629f1bdb895d7e" kind="dir"><name>C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/ws</name>
+  </compound>
+</doxygenindex>

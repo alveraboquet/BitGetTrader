@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="trace__api_8py" kind="file">
+    <compoundname>trace_api.py</compoundname>
+    <innerclass refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api" prot="public">BitGetTrader::bitget::mix::trace_api::TraceApi</innerclass>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1trace__api">BitGetTrader::bitget::mix::trace_api</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_bit_get_trader_1_1bitget_1_1mix_1_1trace__api" refkind="compound"><highlight class="comment">#!/usr/bin/python</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>..client<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Client</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>..consts<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api" kindref="compound">TraceApi</ref>(Client):</highlight></codeline>
+<codeline lineno="8" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a02704c0b6f4bc651d3e89993ba4a98cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a02704c0b6f4bc651d3e89993ba4a98cd" kindref="member">__init__</ref>(self,<sp/>api_key,<sp/>api_secret_key,<sp/>passphrase,<sp/>use_server_time=False,<sp/>first=False):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Client.__init__(self,<sp/>api_key,<sp/>api_secret_key,<sp/>passphrase,<sp/>use_server_time,<sp/>first)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>交易员平仓</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>symbol：<sp/>交易对名称</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>trackingNo:<sp/>跟踪订单号</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a9f43624ca1292ab772e499368581710c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a9f43624ca1292ab772e499368581710c" kindref="member">close_track_order</ref>(self,<sp/>symbol,<sp/>trackingNo):</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>symbol<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>trackingNo:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;symbol&quot;</highlight><highlight class="normal">]<sp/>=<sp/>symbol</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;trackingNo&quot;</highlight><highlight class="normal">]<sp/>=<sp/>trackingNo</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(POST,<sp/>MIX_TRACE_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/closeTrackOrder&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>交易员获取当前带单</highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>symbol:<sp/>交易对名称</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>productType:<sp/>umcbl(USDT专业合约)<sp/>dmcbl(混合合约)<sp/>sumcbl(USDT专业合约模拟盘)<sp/><sp/>sdmcbl(混合合约模拟盘)</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>pageNo：<sp/>从1开始</highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a74ede6ef8ac2cfbc77ee4fb5bb71a05f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a74ede6ef8ac2cfbc77ee4fb5bb71a05f" kindref="member">current_track</ref>(self,<sp/>symbol,<sp/>productType,<sp/>pageSize=20,<sp/>pageNo=1):</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>symbol:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;symbol&quot;</highlight><highlight class="normal">]<sp/>=<sp/>symbol</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;productType&quot;</highlight><highlight class="normal">]<sp/>=<sp/>productType</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageSize&quot;</highlight><highlight class="normal">]<sp/>=<sp/>pageSize</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageNo&quot;</highlight><highlight class="normal">]<sp/>=<sp/>pageNo</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>MIX_TRACE_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/currentTrack&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>交易员获取当前带单</highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>symbol:<sp/>交易对名称</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>startTime:<sp/>开始时间</highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>endTime:<sp/>结束时间</highlight></codeline>
+<codeline lineno="51"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>pageSize:<sp/>查询条数</highlight></codeline>
+<codeline lineno="52"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>pageNo:<sp/>查询页数</highlight></codeline>
+<codeline lineno="53"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="54"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a35b5b07c0c2ae6b9d880f451f74aa438" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a35b5b07c0c2ae6b9d880f451f74aa438" kindref="member">history_track</ref>(self,<sp/>startTime,<sp/>endTime,<sp/>pageSize=100,<sp/>pageNo=1):</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>startTime<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>endTime:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;startTime&quot;</highlight><highlight class="normal">]<sp/>=<sp/>startTime</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;endTime&quot;</highlight><highlight class="normal">]<sp/>=<sp/>endTime</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageSize&quot;</highlight><highlight class="normal">]<sp/>=<sp/>pageSize</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageNo&quot;</highlight><highlight class="normal">]<sp/>=<sp/>pageNo</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>MIX_TRACE_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/historyTrack&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="68"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>交易员分润汇总</highlight></codeline>
+<codeline lineno="69"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="70"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a511f37d0a73ced7c7268576df6113991" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a511f37d0a73ced7c7268576df6113991" kindref="member">summary</ref>(self):</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_without_params(GET,<sp/>MIX_TRACE_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/summary&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="76"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>交易员分润汇总(按结算币种)</highlight></codeline>
+<codeline lineno="77"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="78"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1add9303e3e2808c0a6c305156da8016b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1add9303e3e2808c0a6c305156da8016b8" kindref="member">profit_settle_margin_coin</ref>(self):</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_without_params(GET,<sp/>MIX_TRACE_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/profitSettleTokenIdGroup&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="84"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>交易员分润汇总(按日期)</highlight></codeline>
+<codeline lineno="85"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="86"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a5fe3f3125328586b987d37b7d0e20423" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a5fe3f3125328586b987d37b7d0e20423" kindref="member">profit_date_group</ref>(self,<sp/>pageSize,<sp/>pageNo):</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>pageSize<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>pageNo:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageSize&quot;</highlight><highlight class="normal">]<sp/>=<sp/>pageSize</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageNo&quot;</highlight><highlight class="normal">]<sp/>=<sp/>pageNo</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>MIX_TRACE_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/profitDateGroupList&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="98"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>交易员历史分润明细</highlight></codeline>
+<codeline lineno="99"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="100"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a2265b73c899ff28005a30400d7ae1e62" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a2265b73c899ff28005a30400d7ae1e62" kindref="member">profit_date_detail</ref>(self,<sp/>marginCoin,<sp/>date,<sp/>pageSize,<sp/>pageNo):</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>marginCoin<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>date<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>pageSize<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>pageNo:</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;marginCoin&quot;</highlight><highlight class="normal">]<sp/>=<sp/>marginCoin</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;date&quot;</highlight><highlight class="normal">]<sp/>=<sp/>date</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageSize&quot;</highlight><highlight class="normal">]<sp/>=<sp/>pageSize</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageNo&quot;</highlight><highlight class="normal">]<sp/>=<sp/>pageNo</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>MIX_TRACE_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/profitDateList&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="114"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>交易员待分润明细</highlight></codeline>
+<codeline lineno="115"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="116"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1af518bdff9145d66fa34c41876391affe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1af518bdff9145d66fa34c41876391affe" kindref="member">wait_profit_detail</ref>(self,<sp/>pageSize,<sp/>pageNo):</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>pageSize<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>pageNo:</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageSize&quot;</highlight><highlight class="normal">]<sp/>=<sp/>pageSize</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageNo&quot;</highlight><highlight class="normal">]<sp/>=<sp/>pageNo</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>MIX_TRACE_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/waitProfitDateList&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="128"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>跟随者<sp/>获取开仓平仓单信息</highlight></codeline>
+<codeline lineno="129"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="130"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a184cecc785c3a15b1a70823da226505c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1mix_1_1trace__api_1_1_trace_api_1a184cecc785c3a15b1a70823da226505c" kindref="member">follower_history_orders</ref>(self,<sp/>page_size,<sp/>page_no,<sp/>start_time,<sp/>end_time):</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>page_size<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>page_no:</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageSize&quot;</highlight><highlight class="normal">]<sp/>=<sp/>page_size</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;pageNo&quot;</highlight><highlight class="normal">]<sp/>=<sp/>page_no</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>start_time<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>end_time:</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;startTime&quot;</highlight><highlight class="normal">]<sp/>=<sp/>start_time</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;endTime&quot;</highlight><highlight class="normal">]<sp/>=<sp/>end_time</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>MIX_TRACE_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/followerHistoryOrders&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/mix/trace_api.py"/>
+  </compounddef>
+</doxygen>

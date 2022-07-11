@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="spot_2market__api_8py" kind="file">
+    <compoundname>market_api.py</compoundname>
+    <innerclass refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api" prot="public">BitGetTrader::bitget::spot::market_api::MarketApi</innerclass>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1spot_1_1market__api">BitGetTrader::bitget::spot::market_api</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_bit_get_trader_1_1bitget_1_1spot_1_1market__api" refkind="compound"><highlight class="comment">#!/usr/bin/python</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>..client<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Client</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>..consts<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api" kindref="compound">MarketApi</ref>(Client):</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1aa8a9cd78e6ed49dc35a931ab18569641" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1aa8a9cd78e6ed49dc35a931ab18569641" kindref="member">__init__</ref>(self,<sp/>api_key,<sp/>api_secret_key,<sp/>passphrase,<sp/>use_server_time=False,<sp/>first=False):</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Client.__init__(self,<sp/>api_key,<sp/>api_secret_key,<sp/>passphrase,<sp/>use_server_time,<sp/>first)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>获取实时成交</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a7e1c94866cc5ac66b80b4404bb0ce3be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a7e1c94866cc5ac66b80b4404bb0ce3be" kindref="member">fills</ref>(self,<sp/>symbol,<sp/>limit=100):</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>symbol<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>limit:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;symbol&quot;</highlight><highlight class="normal">]<sp/>=<sp/>symbol</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;limit&quot;</highlight><highlight class="normal">]<sp/>=<sp/>limit</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>SPOT_MARKET_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/fills&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>获取深度数据</highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>深度合并类型</highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>type:<sp/>step0(default)<sp/>step1<sp/>step2<sp/>step3<sp/>step4<sp/>step5</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a6a17022ace18edd25da701f6274426d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a6a17022ace18edd25da701f6274426d2" kindref="member">depth</ref>(self,<sp/>symbol,<sp/>limit=&apos;150&apos;,<sp/>type=&apos;step0&apos;):</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>symbol<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>limit<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>type:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;symbol&quot;</highlight><highlight class="normal">]<sp/>=<sp/>symbol</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;limit&quot;</highlight><highlight class="normal">]<sp/>=<sp/>limit</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;type&quot;</highlight><highlight class="normal">]<sp/>=<sp/>type</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>SPOT_MARKET_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/depth&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>根据币对获取ticker信息</highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a079b3b51294be4894354de724ba1fde3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a079b3b51294be4894354de724ba1fde3" kindref="member">ticker</ref>(self,<sp/>symbol):</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>symbol:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;symbol&quot;</highlight><highlight class="normal">]<sp/>=<sp/>symbol</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>SPOT_MARKET_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/ticker&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="55"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>获取全部交易对<sp/>ticker<sp/>信息</highlight></codeline>
+<codeline lineno="56"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="57"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a31e6a0d08bc917cf24e38883393bb049" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1a31e6a0d08bc917cf24e38883393bb049" kindref="member">tickers</ref>(self):</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_without_params(GET,<sp/>SPOT_MARKET_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/tickers&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;&apos;&apos;</highlight></codeline>
+<codeline lineno="63"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>获取<sp/>k<sp/>线信息</highlight></codeline>
+<codeline lineno="64"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>params</highlight></codeline>
+<codeline lineno="65"><highlight class="stringliteral"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>period:<sp/>1min,<sp/>5min,<sp/>15min,<sp/>30min,<sp/>1h,4h,12h,<sp/>1day,<sp/>1week</highlight></codeline>
+<codeline lineno="67"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>after:<sp/>时间之前的</highlight></codeline>
+<codeline lineno="68"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>before:<sp/>时间之后</highlight></codeline>
+<codeline lineno="69"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:return:</highlight></codeline>
+<codeline lineno="70"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&apos;&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1acb415f1854d8ad9d8ebee5bf602bead4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="class_bit_get_trader_1_1bitget_1_1spot_1_1market__api_1_1_market_api_1acb415f1854d8ad9d8ebee5bf602bead4" kindref="member">candles</ref>(self,<sp/>symbol,<sp/>period,<sp/>after=&apos;&apos;,<sp/>before=&apos;&apos;,<sp/>limit=100):</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>symbol<sp/></highlight><highlight class="keywordflow">and</highlight><highlight class="normal"><sp/>period:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;symbol&quot;</highlight><highlight class="normal">]<sp/>=<sp/>symbol</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;period&quot;</highlight><highlight class="normal">]<sp/>=<sp/>period</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;after&quot;</highlight><highlight class="normal">]<sp/>=<sp/>after</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;before&quot;</highlight><highlight class="normal">]<sp/>=<sp/>before</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params[</highlight><highlight class="stringliteral">&quot;limit&quot;</highlight><highlight class="normal">]<sp/>=<sp/>limit</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>self._request_with_params(GET,<sp/>SPOT_MARKET_V1_URL<sp/>+<sp/></highlight><highlight class="stringliteral">&apos;/candles&apos;</highlight><highlight class="normal">,<sp/>params)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;pls<sp/>check<sp/>args&quot;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/market_api.py"/>
+  </compounddef>
+</doxygen>

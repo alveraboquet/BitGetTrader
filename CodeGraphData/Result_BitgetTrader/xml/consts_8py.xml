@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="consts_8py" kind="file">
+    <compoundname>consts.py</compoundname>
+    <innernamespace refid="namespace_bit_get_trader_1_1bitget_1_1consts">BitGetTrader::bitget::consts</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_bit_get_trader_1_1bitget_1_1consts" refkind="compound"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">#<sp/>http<sp/>header</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a8824ee93a34e89e139c7187895d0d0e0" refkind="member"><highlight class="normal">CONTENT_TYPE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Content-Type&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1accfd44d8e7c02d838a51cabc417bf423" refkind="member"><highlight class="normal">OK_ACCESS_KEY<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ACCESS-KEY&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a4765e3ca2d14bcdc6ee260fbaadc47a5" refkind="member"><highlight class="normal">OK_ACCESS_SIGN<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ACCESS-SIGN&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ae44a61d1151d60ef2e80aa2b9c58c93e" refkind="member"><highlight class="normal">OK_ACCESS_TIMESTAMP<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ACCESS-TIMESTAMP&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a833961aca20d783395325e91e45a63e8" refkind="member"><highlight class="normal">OK_ACCESS_PASSPHRASE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;ACCESS-PASSPHRASE&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ae1b5837e0cc4f16828758807fa021ff2" refkind="member"><highlight class="normal">APPLICATION_JSON<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;application/json&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">#<sp/>header<sp/>key</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a7b276daebaebe39f74e8ba09ae31d584" refkind="member"><highlight class="normal">ACEEPT<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Accept&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a53813e009270c55b96eb7ff748824437" refkind="member"><highlight class="normal">COOKIE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Cookie&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a812a79f55096334e88da7059f0073836" refkind="member"><highlight class="normal">LOCALE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;locale=&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">#<sp/>method</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a064ff545ff8c38894f11a74e68342647" refkind="member"><highlight class="normal">GET<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GET&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ad4b61f7bda7dd41d93d25fb6f129445f" refkind="member"><highlight class="normal">POST<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;POST&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a3a82395cafe28e893c78285956c25cf9" refkind="member"><highlight class="normal">DELETE<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;DELETE&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Base<sp/>Url</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1af521ce3226cb3a6e0825794883869a7c" refkind="member"><highlight class="normal">API_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;https://api.bitget.com&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">#<sp/>ws<sp/>Url</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a7a5e2fe0cdea50e954d2caf8fdd30e4a" refkind="member"><highlight class="normal">CONTRACT_WS_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;wss://ws.bitgetapi.com/spot/v1/stream&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">#<sp/>########################################</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">#<sp/>##############【spot<sp/>url】###############</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">#<sp/>########################################</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ac60ff2cb90fed6140b06724332bbcfd8" refkind="member"><highlight class="normal">SPOT_PUBLIC_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/spot/v1/public&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a4fd78d936add9569950f72df99599fd5" refkind="member"><highlight class="normal">SPOT_MARKET_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/spot/v1/market&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a37c01dceb793a418599430ea722b446a" refkind="member"><highlight class="normal">SPOT_ACCOUNT_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/spot/v1/account&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a6610765aa92ae38adbb66ec57b7af5bd" refkind="member"><highlight class="normal">SPOT_ORDER_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/spot/v1/trade&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a9a988a84d930816bde6dd19bf6d0823b" refkind="member"><highlight class="normal">SPOT_WALLET_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/spot/v1/wallet&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">#<sp/>########################################</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">#<sp/>##############【mix<sp/>url】################</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">#<sp/>########################################</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a67a133930728707d3f35809d27554cca" refkind="member"><highlight class="normal">MIX_MARKET_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/mix/v1/market&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ac893ad2e56182d47c2b72f74b89b5e62" refkind="member"><highlight class="normal">MIX_ACCOUNT_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/mix/v1/account&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a7d8ff665d9a445ea6fb8f33eea37b38f" refkind="member"><highlight class="normal">MIX_POSITION_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/mix/v1/position&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ac291144e085a5e5bed9708486b3562c1" refkind="member"><highlight class="normal">MIX_ORDER_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/mix/v1/order&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ac6b62c05d40cb104571f42ffebe785bb" refkind="member"><highlight class="normal">MIX_PLAN_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/mix/v1/plan&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1afbc3714978ff9404618b4ffe0611e145" refkind="member"><highlight class="normal">MIX_TRACE_V1_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/api/mix/v1/trace&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1a6c61c38f2981bdbc8c87d5530391bfeb" refkind="member"><highlight class="normal">SUBSCRIBE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;subscribe&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1ab0f73f50dff8d3d5c018081611da4011" refkind="member"><highlight class="normal">UNSUBSCRIBE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;unsubscribe&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="namespace_bit_get_trader_1_1bitget_1_1consts_1aa2aa6f9f36e1b2ba32c043c81d0dfd5e" refkind="member"><highlight class="normal">LOGIN<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;login&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">GET<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;GET&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">REQUEST_PATH<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/user/verify&apos;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/consts.py"/>
+  </compounddef>
+</doxygen>

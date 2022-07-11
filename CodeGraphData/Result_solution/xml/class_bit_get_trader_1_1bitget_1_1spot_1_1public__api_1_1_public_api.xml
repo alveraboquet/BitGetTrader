@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api" kind="class" prot="public">
+    <compoundname>BitGetTrader::bitget::spot::public_api::PublicApi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Client</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1afcf9d4dffc1fddbd8ad730bad9145f6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.public_api.PublicApi.__init__</definition>
+        <argsstring></argsstring>
+        <name>__init__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" line="9" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1af371f6af07f263d13c062452368ad2b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.public_api.PublicApi.times</definition>
+        <argsstring></argsstring>
+        <name>times</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" line="16" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" bodystart="16" bodyend="18"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1af77b67e8b1f1c7e7c95591c3e77f7a01" compoundref="client_8py" startline="79" endline="81">BitGetTrader.bitget.client.Client._request_without_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1abfb8640194c4e900a16d85abb47823be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.public_api.PublicApi.currencies</definition>
+        <argsstring></argsstring>
+        <name>currencies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" line="23" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" bodystart="23" bodyend="26"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1af77b67e8b1f1c7e7c95591c3e77f7a01" compoundref="client_8py" startline="79" endline="81">BitGetTrader.bitget.client.Client._request_without_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1afb9918e3f89b327843441d785e8ab594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.public_api.PublicApi.products</definition>
+        <argsstring></argsstring>
+        <name>products</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" line="31" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" bodystart="31" bodyend="34"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1af77b67e8b1f1c7e7c95591c3e77f7a01" compoundref="client_8py" startline="79" endline="81">BitGetTrader.bitget.client.Client._request_without_params</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1a8b787a307667dea88195b0589ceaa50d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def BitGetTrader.bitget.spot.public_api.PublicApi.product</definition>
+        <argsstring></argsstring>
+        <name>product</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" line="39" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" bodystart="39" bodyend="49"/>
+        <references refid="class_bit_get_trader_1_1bitget_1_1client_1_1_client_1ab03dc700953b1bbd65157261f6fa60a3" compoundref="client_8py" startline="82" endline="84">BitGetTrader.bitget.client.Client._request_with_params</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="71">
+        <label>Client</label>
+      </node>
+      <node id="70">
+        <label>BitGetTrader.bitget.spot.public_api.PublicApi</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="73">
+        <label>Client</label>
+      </node>
+      <node id="72">
+        <label>BitGetTrader.bitget.spot.public_api.PublicApi</label>
+        <link refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" line="7" column="1" bodyfile="C:/Users/bbeaulieu/source/repos/BitGetTrader/bitget/spot/public_api.py" bodystart="7" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1afcf9d4dffc1fddbd8ad730bad9145f6b" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::public_api::PublicApi</scope><name>__init__</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1abfb8640194c4e900a16d85abb47823be" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::public_api::PublicApi</scope><name>currencies</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1a8b787a307667dea88195b0589ceaa50d" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::public_api::PublicApi</scope><name>product</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1afb9918e3f89b327843441d785e8ab594" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::public_api::PublicApi</scope><name>products</name></member>
+      <member refid="class_bit_get_trader_1_1bitget_1_1spot_1_1public__api_1_1_public_api_1af371f6af07f263d13c062452368ad2b1" prot="public" virt="non-virtual"><scope>BitGetTrader::bitget::spot::public_api::PublicApi</scope><name>times</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
