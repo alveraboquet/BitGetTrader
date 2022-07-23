@@ -364,3 +364,8 @@ FodyWeavers.xsd
 
 # Test File
 maintester.py
+/BitgetTrader.sln
+/bitgetHist.csv
+/BitgetTrader.pyperf
+/lintspecs.pylintrc
+/BitgetTrader.pyproj
