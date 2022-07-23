@@ -35,6 +35,7 @@
     <Folder Include="bitget\ws\utils\" />
     <Folder Include="bitget\__pycache__\" />
     <Folder Include="contracts\" />
+    <Folder Include="tracker\" />
     <Folder Include="screener\" />
     <Folder Include="screener\__pycache__\" />
   </ItemGroup>
@@ -93,12 +94,25 @@
     <Compile Include="contracts\contract.py" />
     <Compile Include="contracts\timeseries.py" />
     <Compile Include="contracts\timeseries_asynch.py" />
-    <Compile Include="maintester.py" />
+    <Compile Include="contracts\__init__.py" />
+    <Compile Include="headertester.py" />
+    <Compile Include="maintester.py">
+      <Publish>True</Publish>
+    </Compile>
     <Compile Include="screener\const.py" />
-    <Compile Include="screener\customizeHeaders.py" />
+    <Compile Include="screener\headers.py" />
     <Compile Include="screener\screener.py" />
     <Compile Include="screener\utils.py" />
     <Compile Include="screener\__init__.py" />
+    <Compile Include="tracker\trackerGUI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tracker\utils.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tracker\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
