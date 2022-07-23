@@ -1,3 +1,0 @@
-[MASTER]
-disable=import-error
-ignored-modules=PyQt5.QtWidgets
