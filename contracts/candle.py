@@ -2,8 +2,8 @@
 from datetime import datetime
 class Candle:
 
-    # T -> Time, O -> Open, H -> High, L -> Low, C -> Close, B -> BaseVol, Q -> QuoteVol
-    def __init__(self, t: float, o: float, h: float, l: float, c: float, b: float, q: float):
+    def __init__(self, t:float=0, o:float=0, h:float=0, l:float=0, c:float=0, b:float=0, q:float=0):
+        """ T -> Time, O -> Open, H -> High, L -> Low, C -> Close, B -> BaseVol, Q -> QuoteVol """
         self.t = t
         self.o = o
         self.h = h
