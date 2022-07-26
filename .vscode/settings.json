@@ -1,3 +1,15 @@
 {
-    "esbonio.sphinx.confDir": ""
+    "esbonio.sphinx.confDir": "",
+    "cSpell.ignoreWords": [
+        "csvpath",
+        "xaxis",
+        "yaxis"
+    ],
+    "cSpell.words": [
+        "Antialiasing",
+        "basevol",
+        "chartview",
+        "dateutil",
+        "quotevol"
+    ]
 }
